@@ -11,7 +11,7 @@ private:
     const Vector center;
 public:
     Sphere(float ray, Vector center);
-    double Value(const Vector& candidate) const;
-    Vector Gradient(const Vector& point) const;
+    double Value(const Vector& candidate) const override;
+    Vector Gradient(const Vector& point) const override;
     const Box autoBox();
 };

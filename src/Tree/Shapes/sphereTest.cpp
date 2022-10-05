@@ -2,8 +2,8 @@
 // Created by hugo on 9/15/22.
 //
 #include <mathematics.h>
-#include <sphere.hpp>
 #include <mesh.h>
+#include <sphere.hpp>
 int main(){
     Mesh sphere;
     Sphere S(1.f, Vector(0.f, 0.f, 0.f));
