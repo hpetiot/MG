@@ -8,6 +8,6 @@ int main(){
     Mesh sphere;
     Sphere S(1.f, Vector(0.f, 0.f, 0.f));
     S.Polygonize(50,sphere,  S.autoBox());
-    sphere.SaveObj()
+    sphere.SaveObj("./sphere.obj", "basic sphere");
     return 1;
 }

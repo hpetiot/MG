@@ -1,3 +1,5 @@
+#include <fstream>
+
 #include "mesh.h"
 
 /*!
@@ -6,7 +8,7 @@
 \brief Core triangle mesh class.
 */
 
-#include <QtCore/QRegularExpression>
+//#include <QtCore/QRegularExpression>
 
 /*!
 \brief Initialize the mesh to empty.
@@ -209,13 +211,14 @@ Mesh::Mesh(const Box& box)
 }
 
 
-#include <QtCore/QFile>
-#include <QtCore/QTextStream>
+// #include <QtCore/QFile>
+// #include <QtCore/QTextStream>
 
 /*!
 \brief Import a mesh from an .obj file.
 \param filename File name.
 */
+/*
 void Mesh::Load(const std::string& filename)
 {
   vertices.clear();
@@ -228,12 +231,12 @@ void Mesh::Load(const std::string& filename)
   if (!data.open(QFile::ReadOnly))
     return;
   QTextStream in(&data);
-
+*/
   // Set of regular expressions : Vertex, Normal, Triangle
-  QRegularExpression rexv("v\\s*([-|+|\\s]\\d*\\.\\d+)\\s*([-|+|\\s]\\d*\\.\\d+)\\s*([-|+|\\s]\\d*\\.\\d+)");
-  QRegularExpression rexn("vn\\s*([-|+|\\s]\\d*\\.\\d+)\\s*([-|+|\\s]\\d*\\.\\d+)\\s*([-|+|\\s]\\d*\\.\\d+)");
-  QRegularExpression rext("f\\s*(\\d*)/\\d*/(\\d*)\\s*(\\d*)/\\d*/(\\d*)\\s*(\\d*)/\\d*/(\\d*)");
-  while (!in.atEnd())
+  //QRegularExpression rexv("v\\s*([-|+|\\s]\\d*\\.\\d+)\\s*([-|+|\\s]\\d*\\.\\d+)\\s*([-|+|\\s]\\d*\\.\\d+)");
+  //QRegularExpression rexn("vn\\s*([-|+|\\s]\\d*\\.\\d+)\\s*([-|+|\\s]\\d*\\.\\d+)\\s*([-|+|\\s]\\d*\\.\\d+)");
+  //QRegularExpression rext("f\\s*(\\d*)/\\d*/(\\d*)\\s*(\\d*)/\\d*/(\\d*)\\s*(\\d*)/\\d*/(\\d*)");
+  /*while (!in.atEnd())
   {
     std::string line = in.readLine();
     QRegularExpressionMatch match = rexv.match(line);
@@ -259,7 +262,7 @@ void Mesh::Load(const std::string& filename)
   }
   data.close();
 }
-
+*/
 /*!
 \brief Scale the mesh.
 \param s Scaling factor.
@@ -289,23 +292,28 @@ void Mesh::Scale(double s)
 */
 void Mesh::SaveObj(const std::string& url, const std::string& meshName) const
 {
-  QFile data(url);
-  if (!data.open(QFile::WriteOnly))
+  // Openfile
+  std::ofstream ofs;
+  ofs.open(url);
+  //QFile data(url);
+  // check if it worked
+  if (!ofs.is_open())
     return;
-  QTextStream out(&data);
-  out << "g " << meshName << std::endl;
+  //create writing stram
+  //QTextStream out(&data);
+  ofs << "g " << meshName << std::endl;
   for (int i = 0; i < vertices.size(); i++)
-    out << "v " << vertices.at(i)[0] << " " << vertices.at(i)[1] << " " << vertices.at(i)[2] << std::endl;
+    ofs << "v " << vertices.at(i)[0] << " " << vertices.at(i)[1] << " " << vertices.at(i)[2] << std::endl;
   for (int i = 0; i < normals.size(); i++)
-    out << "vn " << normals.at(i)[0] << " " << normals.at(i)[1] << " " << normals.at(i)[2] << std::endl;
+    ofs << "vn " << normals.at(i)[0] << " " << normals.at(i)[1] << " " << normals.at(i)[2] << std::endl;
   for (int i = 0; i < varray.size(); i += 3)
   {
-    out << "f " << varray.at(i) + 1 << "//" << narray.at(i) + 1 << " "
+    ofs << "f " << varray.at(i) + 1 << "//" << narray.at(i) + 1 << " "
       << varray.at(i + 1) + 1 << "//" << narray.at(i + 1) + 1 << " "
       << varray.at(i + 2) + 1 << "//" << narray.at(i + 2) + 1 << " "
       << "\n";
   }
-  out.flush();
-  data.close();
+  ofs.flush();
+  ofs.close();
 }
 
