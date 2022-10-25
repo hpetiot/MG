@@ -6,27 +6,18 @@ Cylinder::Cylinder(float ray, Vector pointStart, Vector pointEnd):ray(ray), poin
 }
 
 double Cylinder::Value(const Vector& candidate) const {
-    std::cout << "candidate = ("<< candidate[0] <<", " << candidate[1] << ", " << candidate[2]<<")"<<std::endl;
     Vector ba = pointEnd - pointStart;
-    std::cout << "ba = ("<< ba[0] <<", " << ba[1] << ", " << ba[2]<<")"<<std::endl;
     Vector pa = candidate - pointStart;
-    std::cout << "pa = ("<< pa[0] <<", " << pa[1] << ", " << pa[2]<<")"<<std::endl;
-    float baba = ba * ba;
-    std::cout << "baba = " << baba << std::endl;
-    float paba = pa * ba;
-    std::cout << "paba = " << paba << std::endl;
-    float x = Norm(pa*baba - ba*paba) - ray*baba;
-    std::cout << "x = " << x << std::endl; 
-    float y = abs(paba-baba*0.5)-baba*0.5;
-    std::cout << "y = " << y << std::endl;
-    float x2 = x*x;
-    std::cout << "x2 = " << x2 << std::endl;
-    float y2 = y*y*baba;
-    std::cout << "y2 = " << y2 << std::endl;
-    float d = (std::max(x, y)<0.0)?-std::min(x2, y2):(((x > 0.0)?x2:0.0)+((y>0.0)?y2:0.0));
-    std::cout << "d = " << d << std::endl;
-    std::cout << "sqrt(d)/baba = " <<  sqrt(d)/baba << std::endl;
-    return sqrt(d)/baba;
+
+    double baba = ba*ba;
+    double paba = pa*ba;
+    double x = Norm(pa * baba-ba*paba) - ray*baba;
+    double y = abs(paba-baba*0.5) - baba * 0.5;
+    double x2 = x*x;
+    double y2 = y*y*baba;
+    double d = (std::max(x, y)< 0.f)? -std::min(x2, y2):(((x>0.f)? x2:0.f) + ((y>0.f)?y2:0.0));
+    int sign = d<0.f? -1:1;
+    return sign*sqrt(abs(d))/baba;
 }
 
 Vector Cylinder::Gradient(const Vector &point) const {
