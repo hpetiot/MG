@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/hugo/Desktop/MG/src/GalinStuff/box.cpp
-box.h
-/home/hugo/Desktop/MG/src/GalinStuff/box.h
-
 /home/hugo/Desktop/MG/src/GalinStuff/box.h
 vector
 -
@@ -18,28 +14,18 @@ iostream
 mathematics.h
 /home/hugo/Desktop/MG/src/GalinStuff/mathematics.h
 
-/home/hugo/Desktop/MG/src/GalinStuff/camera.cpp
-camera.h
-/home/hugo/Desktop/MG/src/GalinStuff/camera.h
-
-/home/hugo/Desktop/MG/src/GalinStuff/camera.h
-box.h
-/home/hugo/Desktop/MG/src/GalinStuff/box.h
-ray.h
-/home/hugo/Desktop/MG/src/GalinStuff/ray.h
-
-/home/hugo/Desktop/MG/src/GalinStuff/evector.cpp
-mathematics.h
-/home/hugo/Desktop/MG/src/GalinStuff/mathematics.h
-iostream
--
-
 /home/hugo/Desktop/MG/src/GalinStuff/mathematics.h
 math.h
 -
 ostream
 -
 
+/home/hugo/Desktop/MG/src/GalinStuff/mesh.cpp
+fstream
+-
+mesh.h
+/home/hugo/Desktop/MG/src/GalinStuff/mesh.h
+
 /home/hugo/Desktop/MG/src/GalinStuff/mesh.h
 box.h
 /home/hugo/Desktop/MG/src/GalinStuff/box.h
@@ -51,8 +37,4 @@ mathematics.h
 /home/hugo/Desktop/MG/src/GalinStuff/ray.h
 mathematics.h
 /home/hugo/Desktop/MG/src/GalinStuff/mathematics.h
-
-/home/hugo/Desktop/MG/src/GalinStuff/triangle.cpp
-mesh.h
-/home/hugo/Desktop/MG/src/GalinStuff/mesh.h
 

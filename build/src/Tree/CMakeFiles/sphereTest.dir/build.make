@@ -112,6 +112,10 @@ sphereTest_EXTERNAL_OBJECTS = \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o" \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o" \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o" \
+"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o" \
+"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o" \
+"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o" \
+"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o" \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o"
 
 ../bin/sphereTest: src/Tree/CMakeFiles/sphereTest.dir/Shapes/sphere.cpp.o
@@ -119,6 +123,10 @@ sphereTest_EXTERNAL_OBJECTS = \
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o
+../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o
+../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o
+../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o
+../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o
 ../bin/sphereTest: src/Tree/CMakeFiles/sphereTest.dir/build.make
 ../bin/sphereTest: src/Tree/CMakeFiles/sphereTest.dir/link.txt

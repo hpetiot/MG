@@ -301,11 +301,13 @@ void Mesh::SaveObj(const std::string& url, const std::string& meshName) const
     return;
   //create writing stram
   //QTextStream out(&data);
-  ofs << "g " << meshName << std::endl;
+  ofs << "g"/* << meshName */<< std::endl;
   for (int i = 0; i < vertices.size(); i++)
     ofs << "v " << vertices.at(i)[0] << " " << vertices.at(i)[1] << " " << vertices.at(i)[2] << std::endl;
+  std::cout << "done writing vertices" << std::endl;
   for (int i = 0; i < normals.size(); i++)
     ofs << "vn " << normals.at(i)[0] << " " << normals.at(i)[1] << " " << normals.at(i)[2] << std::endl;
+  std::cout << "done writing normals" << std::endl;
   for (int i = 0; i < varray.size(); i += 3)
   {
     ofs << "f " << varray.at(i) + 1 << "//" << narray.at(i) + 1 << " "
@@ -313,7 +315,9 @@ void Mesh::SaveObj(const std::string& url, const std::string& meshName) const
       << varray.at(i + 2) + 1 << "//" << narray.at(i + 2) + 1 << " "
       << "\n";
   }
+  std::cout << "done writing varray" << std::endl;
   ofs.flush();
   ofs.close();
+  std::cout << "Done writing" << std::endl;
 }
 

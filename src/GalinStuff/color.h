@@ -5,8 +5,8 @@
 #define __Color__
 
 // Qt Color
-#include <QtGui/QColor>
-#include <QtCore/QVector>
+// #include <QtGui/QColor>
+// #include <QtCore/QVector>
 
 // Mathematics fundamentals
 #include "mathematics.h"
@@ -40,7 +40,7 @@ public:
   double& operator[] (int);
   double operator[] (int) const;
 
-  QColor GetQt() const;
+  //QColor GetQt() const;
 
   static const Color White; //!< White.
   static const Color Transparent; //!< Transparent.
@@ -204,10 +204,10 @@ Color c;
 image.setPixel(i, j, c.GetQt().rgb());
 \endcode
 */
-inline QColor Color::GetQt() const
-{
-  return QColor(int(255.0 * Math::Clamp(c[0])), int(255.0 * Math::Clamp(c[1])), int(255.0 * Math::Clamp(c[2])), int(255.0 * Math::Clamp(c[3])));
-}
+// inline QColor Color::GetQt() const
+// {
+//   return QColor(int(255.0 * Math::Clamp(c[0])), int(255.0 * Math::Clamp(c[1])), int(255.0 * Math::Clamp(c[2])), int(255.0 * Math::Clamp(c[3])));
+// }
 
 
 #endif

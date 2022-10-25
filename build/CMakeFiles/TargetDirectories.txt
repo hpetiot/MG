@@ -3,4 +3,5 @@
 /home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir
 /home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/rebuild_cache.dir
 /home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/edit_cache.dir
+/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/cylinderTest.dir
 /home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/sphereTest.dir

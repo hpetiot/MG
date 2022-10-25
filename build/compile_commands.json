@@ -1,32 +1,62 @@
 [
 {
   "directory": "/home/hugo/Desktop/MG/build",
-  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/gKit -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/box.cpp",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/box.cpp",
   "file": "/home/hugo/Desktop/MG/src/GalinStuff/box.cpp"
 },
 {
   "directory": "/home/hugo/Desktop/MG/build",
-  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/gKit -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/camera.cpp",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/camera.cpp",
   "file": "/home/hugo/Desktop/MG/src/GalinStuff/camera.cpp"
 },
 {
   "directory": "/home/hugo/Desktop/MG/build",
-  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/gKit -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/evector.cpp",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/evector.cpp",
   "file": "/home/hugo/Desktop/MG/src/GalinStuff/evector.cpp"
 },
 {
   "directory": "/home/hugo/Desktop/MG/build",
-  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/gKit -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/triangle.cpp",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/implicits.cpp",
+  "file": "/home/hugo/Desktop/MG/src/GalinStuff/implicits.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/mesh.cpp",
+  "file": "/home/hugo/Desktop/MG/src/GalinStuff/mesh.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/meshcolor.cpp",
+  "file": "/home/hugo/Desktop/MG/src/GalinStuff/meshcolor.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/ray.cpp",
+  "file": "/home/hugo/Desktop/MG/src/GalinStuff/ray.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/triangle.cpp",
   "file": "/home/hugo/Desktop/MG/src/GalinStuff/triangle.cpp"
 },
 {
   "directory": "/home/hugo/Desktop/MG/build/src/Tree",
-  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/gKit -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/sphereTest.dir/Shapes/sphere.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/sphere.cpp",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/cylinderTest.dir/Shapes/cylinder.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/cylinder.cpp",
+  "file": "/home/hugo/Desktop/MG/src/Tree/Shapes/cylinder.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/cylinderTest.dir/Shapes/cylinderTest.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/cylinderTest.cpp",
+  "file": "/home/hugo/Desktop/MG/src/Tree/Shapes/cylinderTest.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/sphereTest.dir/Shapes/sphere.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/sphere.cpp",
   "file": "/home/hugo/Desktop/MG/src/Tree/Shapes/sphere.cpp"
 },
 {
   "directory": "/home/hugo/Desktop/MG/build/src/Tree",
-  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/gKit -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/sphereTest.dir/Shapes/sphereTest.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/sphereTest.cpp",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/sphereTest.dir/Shapes/sphereTest.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/sphereTest.cpp",
   "file": "/home/hugo/Desktop/MG/src/Tree/Shapes/sphereTest.cpp"
 }
 ]

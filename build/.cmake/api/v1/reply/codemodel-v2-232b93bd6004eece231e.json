@@ -18,7 +18,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -32,7 +32,8 @@
 					"source" : "src/Tree",
 					"targetIndexes" : 
 					[
-						1
+						0,
+						2
 					]
 				}
 			],
@@ -49,23 +50,31 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 1,
+					"id" : "cylinderTest::@24651f8f7b17e11c43c2",
+					"jsonFile" : "target-cylinderTest-Debug-d6e0c3c1d3088e640c4a.json",
+					"name" : "cylinderTest",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 0,
 					"id" : "galinKit::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-galinKit-Debug-9d56d1e5b1a5a72808b9.json",
+					"jsonFile" : "target-galinKit-Debug-feda090138298bda87d9.json",
 					"name" : "galinKit",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "sphereTest::@24651f8f7b17e11c43c2",
-					"jsonFile" : "target-sphereTest-Debug-bc8427587d50a872bcf8.json",
+					"jsonFile" : "target-sphereTest-Debug-97e5864d604f9ff68822.json",
 					"name" : "sphereTest",
 					"projectIndex" : 0
 				}

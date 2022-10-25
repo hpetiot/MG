@@ -14,6 +14,31 @@ CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o
 CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o
  /home/hugo/Desktop/MG/src/GalinStuff/evector.cpp
  /home/hugo/Desktop/MG/src/GalinStuff/mathematics.h
+CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o
+ /home/hugo/Desktop/MG/src/GalinStuff/box.h
+ /home/hugo/Desktop/MG/src/GalinStuff/implicits.cpp
+ /home/hugo/Desktop/MG/src/GalinStuff/implicits.h
+ /home/hugo/Desktop/MG/src/GalinStuff/mathematics.h
+ /home/hugo/Desktop/MG/src/GalinStuff/mesh.h
+ /home/hugo/Desktop/MG/src/GalinStuff/ray.h
+CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o
+ /home/hugo/Desktop/MG/src/GalinStuff/box.h
+ /home/hugo/Desktop/MG/src/GalinStuff/mathematics.h
+ /home/hugo/Desktop/MG/src/GalinStuff/mesh.cpp
+ /home/hugo/Desktop/MG/src/GalinStuff/mesh.h
+ /home/hugo/Desktop/MG/src/GalinStuff/ray.h
+CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o
+ /home/hugo/Desktop/MG/src/GalinStuff/box.h
+ /home/hugo/Desktop/MG/src/GalinStuff/color.h
+ /home/hugo/Desktop/MG/src/GalinStuff/mathematics.h
+ /home/hugo/Desktop/MG/src/GalinStuff/mesh.h
+ /home/hugo/Desktop/MG/src/GalinStuff/meshcolor.cpp
+ /home/hugo/Desktop/MG/src/GalinStuff/meshcolor.h
+ /home/hugo/Desktop/MG/src/GalinStuff/ray.h
+CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o
+ /home/hugo/Desktop/MG/src/GalinStuff/mathematics.h
+ /home/hugo/Desktop/MG/src/GalinStuff/ray.cpp
+ /home/hugo/Desktop/MG/src/GalinStuff/ray.h
 CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o
  /home/hugo/Desktop/MG/src/GalinStuff/box.h
  /home/hugo/Desktop/MG/src/GalinStuff/mathematics.h

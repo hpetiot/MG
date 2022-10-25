@@ -143,6 +143,19 @@ galinKit/fast:
 .PHONY : galinKit/fast
 
 #=============================================================================
+# Target rules for targets named cylinderTest
+
+# Build rule for target.
+cylinderTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cylinderTest
+.PHONY : cylinderTest
+
+# fast build rule for target.
+cylinderTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/cylinderTest.dir/build.make src/Tree/CMakeFiles/cylinderTest.dir/build
+.PHONY : cylinderTest/fast
+
+#=============================================================================
 # Target rules for targets named sphereTest
 
 # Build rule for target.
@@ -236,6 +249,114 @@ src/GalinStuff/evector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.s
 .PHONY : src/GalinStuff/evector.cpp.s
 
+src/GalinStuff/implicits.o: src/GalinStuff/implicits.cpp.o
+
+.PHONY : src/GalinStuff/implicits.o
+
+# target to build an object file
+src/GalinStuff/implicits.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o
+.PHONY : src/GalinStuff/implicits.cpp.o
+
+src/GalinStuff/implicits.i: src/GalinStuff/implicits.cpp.i
+
+.PHONY : src/GalinStuff/implicits.i
+
+# target to preprocess a source file
+src/GalinStuff/implicits.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.i
+.PHONY : src/GalinStuff/implicits.cpp.i
+
+src/GalinStuff/implicits.s: src/GalinStuff/implicits.cpp.s
+
+.PHONY : src/GalinStuff/implicits.s
+
+# target to generate assembly for a file
+src/GalinStuff/implicits.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.s
+.PHONY : src/GalinStuff/implicits.cpp.s
+
+src/GalinStuff/mesh.o: src/GalinStuff/mesh.cpp.o
+
+.PHONY : src/GalinStuff/mesh.o
+
+# target to build an object file
+src/GalinStuff/mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o
+.PHONY : src/GalinStuff/mesh.cpp.o
+
+src/GalinStuff/mesh.i: src/GalinStuff/mesh.cpp.i
+
+.PHONY : src/GalinStuff/mesh.i
+
+# target to preprocess a source file
+src/GalinStuff/mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.i
+.PHONY : src/GalinStuff/mesh.cpp.i
+
+src/GalinStuff/mesh.s: src/GalinStuff/mesh.cpp.s
+
+.PHONY : src/GalinStuff/mesh.s
+
+# target to generate assembly for a file
+src/GalinStuff/mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.s
+.PHONY : src/GalinStuff/mesh.cpp.s
+
+src/GalinStuff/meshcolor.o: src/GalinStuff/meshcolor.cpp.o
+
+.PHONY : src/GalinStuff/meshcolor.o
+
+# target to build an object file
+src/GalinStuff/meshcolor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o
+.PHONY : src/GalinStuff/meshcolor.cpp.o
+
+src/GalinStuff/meshcolor.i: src/GalinStuff/meshcolor.cpp.i
+
+.PHONY : src/GalinStuff/meshcolor.i
+
+# target to preprocess a source file
+src/GalinStuff/meshcolor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.i
+.PHONY : src/GalinStuff/meshcolor.cpp.i
+
+src/GalinStuff/meshcolor.s: src/GalinStuff/meshcolor.cpp.s
+
+.PHONY : src/GalinStuff/meshcolor.s
+
+# target to generate assembly for a file
+src/GalinStuff/meshcolor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.s
+.PHONY : src/GalinStuff/meshcolor.cpp.s
+
+src/GalinStuff/ray.o: src/GalinStuff/ray.cpp.o
+
+.PHONY : src/GalinStuff/ray.o
+
+# target to build an object file
+src/GalinStuff/ray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o
+.PHONY : src/GalinStuff/ray.cpp.o
+
+src/GalinStuff/ray.i: src/GalinStuff/ray.cpp.i
+
+.PHONY : src/GalinStuff/ray.i
+
+# target to preprocess a source file
+src/GalinStuff/ray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.i
+.PHONY : src/GalinStuff/ray.cpp.i
+
+src/GalinStuff/ray.s: src/GalinStuff/ray.cpp.s
+
+.PHONY : src/GalinStuff/ray.s
+
+# target to generate assembly for a file
+src/GalinStuff/ray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.s
+.PHONY : src/GalinStuff/ray.cpp.s
+
 src/GalinStuff/triangle.o: src/GalinStuff/triangle.cpp.o
 
 .PHONY : src/GalinStuff/triangle.o
@@ -271,6 +392,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... cylinderTest"
 	@echo "... galinKit"
 	@echo "... sphereTest"
 	@echo "... src/GalinStuff/box.o"
@@ -282,6 +404,18 @@ help:
 	@echo "... src/GalinStuff/evector.o"
 	@echo "... src/GalinStuff/evector.i"
 	@echo "... src/GalinStuff/evector.s"
+	@echo "... src/GalinStuff/implicits.o"
+	@echo "... src/GalinStuff/implicits.i"
+	@echo "... src/GalinStuff/implicits.s"
+	@echo "... src/GalinStuff/mesh.o"
+	@echo "... src/GalinStuff/mesh.i"
+	@echo "... src/GalinStuff/mesh.s"
+	@echo "... src/GalinStuff/meshcolor.o"
+	@echo "... src/GalinStuff/meshcolor.i"
+	@echo "... src/GalinStuff/meshcolor.s"
+	@echo "... src/GalinStuff/ray.o"
+	@echo "... src/GalinStuff/ray.i"
+	@echo "... src/GalinStuff/ray.s"
 	@echo "... src/GalinStuff/triangle.o"
 	@echo "... src/GalinStuff/triangle.i"
 	@echo "... src/GalinStuff/triangle.s"

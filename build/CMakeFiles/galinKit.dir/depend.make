@@ -14,6 +14,31 @@ CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o: ../src/GalinStuff/ray.h
 CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o: ../src/GalinStuff/evector.cpp
 CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o: ../src/GalinStuff/mathematics.h
 
+CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o: ../src/GalinStuff/box.h
+CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o: ../src/GalinStuff/implicits.cpp
+CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o: ../src/GalinStuff/implicits.h
+CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o: ../src/GalinStuff/mathematics.h
+CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o: ../src/GalinStuff/mesh.h
+CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o: ../src/GalinStuff/ray.h
+
+CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o: ../src/GalinStuff/box.h
+CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o: ../src/GalinStuff/mathematics.h
+CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o: ../src/GalinStuff/mesh.cpp
+CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o: ../src/GalinStuff/mesh.h
+CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o: ../src/GalinStuff/ray.h
+
+CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o: ../src/GalinStuff/box.h
+CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o: ../src/GalinStuff/color.h
+CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o: ../src/GalinStuff/mathematics.h
+CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o: ../src/GalinStuff/mesh.h
+CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o: ../src/GalinStuff/meshcolor.cpp
+CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o: ../src/GalinStuff/meshcolor.h
+CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o: ../src/GalinStuff/ray.h
+
+CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o: ../src/GalinStuff/mathematics.h
+CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o: ../src/GalinStuff/ray.cpp
+CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o: ../src/GalinStuff/ray.h
+
 CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o: ../src/GalinStuff/box.h
 CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o: ../src/GalinStuff/mathematics.h
 CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o: ../src/GalinStuff/mesh.h

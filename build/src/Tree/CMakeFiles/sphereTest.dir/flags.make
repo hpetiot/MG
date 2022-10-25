@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hugo/Desktop/MG/src/gKit -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations
+CXX_INCLUDES = -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations
 
 CXX_FLAGS = -g
 

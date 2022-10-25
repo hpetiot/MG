@@ -130,6 +130,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/Tree/CMakeFiles/cylinderTest.dir/rule:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Tree/CMakeFiles/cylinderTest.dir/rule
+.PHONY : src/Tree/CMakeFiles/cylinderTest.dir/rule
+
+# Convenience name for target.
+cylinderTest: src/Tree/CMakeFiles/cylinderTest.dir/rule
+
+.PHONY : cylinderTest
+
+# fast build rule for target.
+cylinderTest/fast:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/cylinderTest.dir/build.make src/Tree/CMakeFiles/cylinderTest.dir/build
+.PHONY : cylinderTest/fast
+
+# Convenience name for target.
 src/Tree/CMakeFiles/sphereTest.dir/rule:
 	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Tree/CMakeFiles/sphereTest.dir/rule
 .PHONY : src/Tree/CMakeFiles/sphereTest.dir/rule
@@ -143,6 +158,60 @@ sphereTest: src/Tree/CMakeFiles/sphereTest.dir/rule
 sphereTest/fast:
 	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/sphereTest.dir/build.make src/Tree/CMakeFiles/sphereTest.dir/build
 .PHONY : sphereTest/fast
+
+Shapes/cylinder.o: Shapes/cylinder.cpp.o
+
+.PHONY : Shapes/cylinder.o
+
+# target to build an object file
+Shapes/cylinder.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/cylinderTest.dir/build.make src/Tree/CMakeFiles/cylinderTest.dir/Shapes/cylinder.cpp.o
+.PHONY : Shapes/cylinder.cpp.o
+
+Shapes/cylinder.i: Shapes/cylinder.cpp.i
+
+.PHONY : Shapes/cylinder.i
+
+# target to preprocess a source file
+Shapes/cylinder.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/cylinderTest.dir/build.make src/Tree/CMakeFiles/cylinderTest.dir/Shapes/cylinder.cpp.i
+.PHONY : Shapes/cylinder.cpp.i
+
+Shapes/cylinder.s: Shapes/cylinder.cpp.s
+
+.PHONY : Shapes/cylinder.s
+
+# target to generate assembly for a file
+Shapes/cylinder.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/cylinderTest.dir/build.make src/Tree/CMakeFiles/cylinderTest.dir/Shapes/cylinder.cpp.s
+.PHONY : Shapes/cylinder.cpp.s
+
+Shapes/cylinderTest.o: Shapes/cylinderTest.cpp.o
+
+.PHONY : Shapes/cylinderTest.o
+
+# target to build an object file
+Shapes/cylinderTest.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/cylinderTest.dir/build.make src/Tree/CMakeFiles/cylinderTest.dir/Shapes/cylinderTest.cpp.o
+.PHONY : Shapes/cylinderTest.cpp.o
+
+Shapes/cylinderTest.i: Shapes/cylinderTest.cpp.i
+
+.PHONY : Shapes/cylinderTest.i
+
+# target to preprocess a source file
+Shapes/cylinderTest.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/cylinderTest.dir/build.make src/Tree/CMakeFiles/cylinderTest.dir/Shapes/cylinderTest.cpp.i
+.PHONY : Shapes/cylinderTest.cpp.i
+
+Shapes/cylinderTest.s: Shapes/cylinderTest.cpp.s
+
+.PHONY : Shapes/cylinderTest.s
+
+# target to generate assembly for a file
+Shapes/cylinderTest.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/cylinderTest.dir/build.make src/Tree/CMakeFiles/cylinderTest.dir/Shapes/cylinderTest.cpp.s
+.PHONY : Shapes/cylinderTest.cpp.s
 
 Shapes/sphere.o: Shapes/sphere.cpp.o
 
@@ -206,7 +275,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... cylinderTest"
 	@echo "... sphereTest"
+	@echo "... Shapes/cylinder.o"
+	@echo "... Shapes/cylinder.i"
+	@echo "... Shapes/cylinder.s"
+	@echo "... Shapes/cylinderTest.o"
+	@echo "... Shapes/cylinderTest.i"
+	@echo "... Shapes/cylinderTest.s"
 	@echo "... Shapes/sphere.o"
 	@echo "... Shapes/sphere.i"
 	@echo "... Shapes/sphere.s"
