@@ -143,6 +143,19 @@ galinKit/fast:
 .PHONY : galinKit/fast
 
 #=============================================================================
+# Target rules for targets named toreTest
+
+# Build rule for target.
+toreTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 toreTest
+.PHONY : toreTest
+
+# fast build rule for target.
+toreTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/toreTest.dir/build.make src/Tree/CMakeFiles/toreTest.dir/build
+.PHONY : toreTest/fast
+
+#=============================================================================
 # Target rules for targets named cylinderTest
 
 # Build rule for target.
@@ -395,6 +408,7 @@ help:
 	@echo "... cylinderTest"
 	@echo "... galinKit"
 	@echo "... sphereTest"
+	@echo "... toreTest"
 	@echo "... src/GalinStuff/box.o"
 	@echo "... src/GalinStuff/box.i"
 	@echo "... src/GalinStuff/box.s"

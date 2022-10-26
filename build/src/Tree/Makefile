@@ -130,6 +130,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/Tree/CMakeFiles/toreTest.dir/rule:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Tree/CMakeFiles/toreTest.dir/rule
+.PHONY : src/Tree/CMakeFiles/toreTest.dir/rule
+
+# Convenience name for target.
+toreTest: src/Tree/CMakeFiles/toreTest.dir/rule
+
+.PHONY : toreTest
+
+# fast build rule for target.
+toreTest/fast:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/toreTest.dir/build.make src/Tree/CMakeFiles/toreTest.dir/build
+.PHONY : toreTest/fast
+
+# Convenience name for target.
 src/Tree/CMakeFiles/cylinderTest.dir/rule:
 	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Tree/CMakeFiles/cylinderTest.dir/rule
 .PHONY : src/Tree/CMakeFiles/cylinderTest.dir/rule
@@ -267,6 +282,60 @@ Shapes/sphereTest.cpp.s:
 	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/sphereTest.dir/build.make src/Tree/CMakeFiles/sphereTest.dir/Shapes/sphereTest.cpp.s
 .PHONY : Shapes/sphereTest.cpp.s
 
+Shapes/tore.o: Shapes/tore.cpp.o
+
+.PHONY : Shapes/tore.o
+
+# target to build an object file
+Shapes/tore.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/toreTest.dir/build.make src/Tree/CMakeFiles/toreTest.dir/Shapes/tore.cpp.o
+.PHONY : Shapes/tore.cpp.o
+
+Shapes/tore.i: Shapes/tore.cpp.i
+
+.PHONY : Shapes/tore.i
+
+# target to preprocess a source file
+Shapes/tore.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/toreTest.dir/build.make src/Tree/CMakeFiles/toreTest.dir/Shapes/tore.cpp.i
+.PHONY : Shapes/tore.cpp.i
+
+Shapes/tore.s: Shapes/tore.cpp.s
+
+.PHONY : Shapes/tore.s
+
+# target to generate assembly for a file
+Shapes/tore.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/toreTest.dir/build.make src/Tree/CMakeFiles/toreTest.dir/Shapes/tore.cpp.s
+.PHONY : Shapes/tore.cpp.s
+
+Shapes/toreTest.o: Shapes/toreTest.cpp.o
+
+.PHONY : Shapes/toreTest.o
+
+# target to build an object file
+Shapes/toreTest.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/toreTest.dir/build.make src/Tree/CMakeFiles/toreTest.dir/Shapes/toreTest.cpp.o
+.PHONY : Shapes/toreTest.cpp.o
+
+Shapes/toreTest.i: Shapes/toreTest.cpp.i
+
+.PHONY : Shapes/toreTest.i
+
+# target to preprocess a source file
+Shapes/toreTest.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/toreTest.dir/build.make src/Tree/CMakeFiles/toreTest.dir/Shapes/toreTest.cpp.i
+.PHONY : Shapes/toreTest.cpp.i
+
+Shapes/toreTest.s: Shapes/toreTest.cpp.s
+
+.PHONY : Shapes/toreTest.s
+
+# target to generate assembly for a file
+Shapes/toreTest.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/toreTest.dir/build.make src/Tree/CMakeFiles/toreTest.dir/Shapes/toreTest.cpp.s
+.PHONY : Shapes/toreTest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -277,6 +346,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cylinderTest"
 	@echo "... sphereTest"
+	@echo "... toreTest"
 	@echo "... Shapes/cylinder.o"
 	@echo "... Shapes/cylinder.i"
 	@echo "... Shapes/cylinder.s"
@@ -289,6 +359,12 @@ help:
 	@echo "... Shapes/sphereTest.o"
 	@echo "... Shapes/sphereTest.i"
 	@echo "... Shapes/sphereTest.s"
+	@echo "... Shapes/tore.o"
+	@echo "... Shapes/tore.i"
+	@echo "... Shapes/tore.s"
+	@echo "... Shapes/toreTest.o"
+	@echo "... Shapes/toreTest.i"
+	@echo "... Shapes/toreTest.s"
 .PHONY : help
 
 

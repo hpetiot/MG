@@ -41,6 +41,16 @@
 },
 {
   "directory": "/home/hugo/Desktop/MG/build/src/Tree",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/toreTest.dir/Shapes/tore.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/tore.cpp",
+  "file": "/home/hugo/Desktop/MG/src/Tree/Shapes/tore.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/toreTest.dir/Shapes/toreTest.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/toreTest.cpp",
+  "file": "/home/hugo/Desktop/MG/src/Tree/Shapes/toreTest.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
   "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/cylinderTest.dir/Shapes/cylinder.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/cylinder.cpp",
   "file": "/home/hugo/Desktop/MG/src/Tree/Shapes/cylinder.cpp"
 },

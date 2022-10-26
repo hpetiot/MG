@@ -11,3 +11,10 @@ add_executable(cylinderTest
     Shapes/cylinder.hpp
     Shapes/cylinderTest.cpp
 )
+
+add_executable(toreTest
+    $<TARGET_OBJECTS:galinKit>
+    Shapes/tore.cpp
+    Shapes/tore.hpp
+    Shapes/toreTest.cpp
+)

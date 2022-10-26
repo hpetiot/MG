@@ -51,6 +51,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/galinKit.dir/DependInfo.cmake"
+  "src/Tree/CMakeFiles/toreTest.dir/DependInfo.cmake"
   "src/Tree/CMakeFiles/cylinderTest.dir/DependInfo.cmake"
   "src/Tree/CMakeFiles/sphereTest.dir/DependInfo.cmake"
   )
