@@ -1,13 +1,16 @@
 #include <Translation.hpp>
 
-double Translation::Value(Vector candidate, AnalyticScalarField obj){
-    return obj.Value(candidate - translation);
+Translation::Translation(Vector offset):offset(offset){}
+
+Vector Translation::Gradient(const Vector& point){
+
 }
 
-Vector Gradient(Vector point){
-    return obj.Gradient(point - translation)
+const Box Translation::autoBox(Box boxOne, Box DiScArD){
+    boxOne.Translate(offset);
+    return boxOne;
 }
 
-Box autoBox(){
-    return obj.autoBox().Translate(translation);
+double Translation::Value(const Vector& candidate, AnalyticScalarField objOne,  AnalyticScalarField DiScArD){
+    return objOne.Value(candidate - offset);
 }

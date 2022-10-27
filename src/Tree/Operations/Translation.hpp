@@ -1,12 +1,14 @@
 #pragma once
 
-#include <implicits.h>
+#
+#include <Opeartions.hpp>
 
-class Translation : public AnalyticScalarField {
+class Translation : public UnOp{
 private:
-    Vector translation;
+    Vector offset;
 public:
-    double Value(Vector candidate);
-    Vector Gradient(Vector point);
-    Box autoBox();
-}
+    Translation(Vector offset);
+    double Value(const Vector& candidate, AnalyticScalarField objOne, AnalyticScalarField DiScArD);
+    Vector Gradient(const Vector& point);
+    const Box autoBox(Box boxOne, Box boxTwo);
+};

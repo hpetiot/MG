@@ -1,9 +1,6 @@
 #include <cylinder.hpp>
 
-Cylinder::Cylinder(float ray, Vector pointStart, Vector pointEnd):ray(ray), pointStart(pointStart), pointEnd(pointEnd) {
-    Vector tmp = pointStart - pointEnd;
-
-}
+Cylinder::Cylinder(float ray, Vector pointStart, Vector pointEnd):ray(ray), pointStart(pointStart), pointEnd(pointEnd) {}
 
 double Cylinder::Value(const Vector& candidate) const {
     Vector ba = pointEnd - pointStart;
