@@ -36,4 +36,6 @@ add_library(galinKit OBJECT
         src/GalinStuff/triangle.cpp
         )
 
-add_subdirectory(src/Tree)
+link_libraries(
+        galinKit
+)

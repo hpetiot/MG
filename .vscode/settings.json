@@ -52,5 +52,15 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
+    },
+    "explorer.excludeGitIgnore": true,
+    "explorer.expandSingleFolderWorkspaces": true,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.sortOrder": "foldersNestsFiles",
+    "explorer.sortOrderLexicographicOptions": "unicode",
+    "explorer.fileNesting.patterns": {
+        "*.hpp": "${capture}.cpp",
+        "*.h": "${capture}.cpp, ${capture}.c"
     }
 }

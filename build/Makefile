@@ -142,45 +142,6 @@ galinKit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/build
 .PHONY : galinKit/fast
 
-#=============================================================================
-# Target rules for targets named toreTest
-
-# Build rule for target.
-toreTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 toreTest
-.PHONY : toreTest
-
-# fast build rule for target.
-toreTest/fast:
-	$(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/toreTest.dir/build.make src/Tree/CMakeFiles/toreTest.dir/build
-.PHONY : toreTest/fast
-
-#=============================================================================
-# Target rules for targets named cylinderTest
-
-# Build rule for target.
-cylinderTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cylinderTest
-.PHONY : cylinderTest
-
-# fast build rule for target.
-cylinderTest/fast:
-	$(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/cylinderTest.dir/build.make src/Tree/CMakeFiles/cylinderTest.dir/build
-.PHONY : cylinderTest/fast
-
-#=============================================================================
-# Target rules for targets named sphereTest
-
-# Build rule for target.
-sphereTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sphereTest
-.PHONY : sphereTest
-
-# fast build rule for target.
-sphereTest/fast:
-	$(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/sphereTest.dir/build.make src/Tree/CMakeFiles/sphereTest.dir/build
-.PHONY : sphereTest/fast
-
 src/GalinStuff/box.o: src/GalinStuff/box.cpp.o
 
 .PHONY : src/GalinStuff/box.o
@@ -405,10 +366,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... cylinderTest"
 	@echo "... galinKit"
-	@echo "... sphereTest"
-	@echo "... toreTest"
 	@echo "... src/GalinStuff/box.o"
 	@echo "... src/GalinStuff/box.i"
 	@echo "... src/GalinStuff/box.s"
