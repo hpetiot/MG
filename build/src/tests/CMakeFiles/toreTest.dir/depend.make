@@ -6,6 +6,8 @@ src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.o: ../src/GalinStuff/implicits.h
 src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.o: ../src/GalinStuff/mathematics.h
 src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.o: ../src/GalinStuff/mesh.h
 src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.o: ../src/GalinStuff/ray.h
+src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.o: ../src/Tree/Node.hpp
+src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.o: ../src/Tree/Shapes/Shape.hpp
 src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.o: ../src/Tree/Shapes/tore.hpp
 src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.o: ../src/tests/toreTest.cpp
 

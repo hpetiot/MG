@@ -1,8 +1,8 @@
 #pragma once
 
-#include <implicits.h>
+#include <Shape.hpp>
 
-class Cylinder : public AnalyticScalarField{
+class Cylinder : public Shape{
 private:
     const Vector pointStart;
     const Vector pointEnd;
@@ -11,5 +11,5 @@ public:
     Cylinder(float ray, Vector pointStart, Vector pointEnd);
     double Value(const Vector& candidate) const override;
     Vector Gradient(const Vector& candidate) const override;
-    const Box autoBox();
+    const Box autoBox() const override;
 };

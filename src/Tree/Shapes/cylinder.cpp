@@ -29,6 +29,6 @@ Vector Cylinder::Gradient(const Vector &point) const {
     return Vector(gx, gy, gz);
 }
 
-const Box Cylinder::autoBox() {
+const Box Cylinder::autoBox() const {
     return Box(Box(pointStart, ray), Box(pointEnd, ray));
 }

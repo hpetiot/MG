@@ -1,3 +1,11 @@
 /home/hugo/Desktop/MG/build/CMakeFiles/rebuild_cache.dir
 /home/hugo/Desktop/MG/build/CMakeFiles/edit_cache.dir
 /home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir
+/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/rebuild_cache.dir
+/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/edit_cache.dir
+/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir
+/home/hugo/Desktop/MG/build/src/tests/CMakeFiles/rebuild_cache.dir
+/home/hugo/Desktop/MG/build/src/tests/CMakeFiles/toreTest.dir
+/home/hugo/Desktop/MG/build/src/tests/CMakeFiles/edit_cache.dir
+/home/hugo/Desktop/MG/build/src/tests/CMakeFiles/sphereTest.dir
+/home/hugo/Desktop/MG/build/src/tests/CMakeFiles/cylinderTest.dir

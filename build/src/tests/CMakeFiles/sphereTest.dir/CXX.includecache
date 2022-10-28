@@ -38,8 +38,18 @@ mathematics.h
 mathematics.h
 ../src/GalinStuff/mathematics.h
 
-../src/Tree/Shapes/sphere.hpp
+../src/Tree/Node.hpp
 implicits.h
+-
+vector
+-
+
+../src/Tree/Shapes/Shape.hpp
+../Node.hpp
+-
+
+../src/Tree/Shapes/sphere.hpp
+Shape.hpp
 -
 
 /home/hugo/Desktop/MG/src/tests/sphereTest.cpp

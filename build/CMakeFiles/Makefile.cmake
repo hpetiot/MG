@@ -11,6 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.18.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.18.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.18.4/CMakeSystem.cmake"
+  "../src/Tree/CMakeLists.txt"
+  "../src/tests/CMakeLists.txt"
   "/usr/share/cmake-3.18/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.18/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -44,9 +46,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Tree/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/galinKit.dir/DependInfo.cmake"
+  "src/Tree/CMakeFiles/treeKit.dir/DependInfo.cmake"
+  "src/tests/CMakeFiles/toreTest.dir/DependInfo.cmake"
+  "src/tests/CMakeFiles/sphereTest.dir/DependInfo.cmake"
+  "src/tests/CMakeFiles/cylinderTest.dir/DependInfo.cmake"
   )

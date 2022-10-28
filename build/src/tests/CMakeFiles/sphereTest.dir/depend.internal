@@ -7,5 +7,7 @@ src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o
  ../src/GalinStuff/mathematics.h
  ../src/GalinStuff/mesh.h
  ../src/GalinStuff/ray.h
+ ../src/Tree/Node.hpp
+ ../src/Tree/Shapes/Shape.hpp
  ../src/Tree/Shapes/sphere.hpp
  /home/hugo/Desktop/MG/src/tests/sphereTest.cpp

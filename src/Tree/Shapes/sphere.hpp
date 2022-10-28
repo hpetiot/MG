@@ -3,9 +3,9 @@
 //
 
 #pragma once
-#include <implicits.h>
+#include <Shape.hpp>
 
-class Sphere : public AnalyticScalarField{
+class Sphere : public Shape{
 private:
     const float ray;
     const Vector center;
@@ -13,5 +13,5 @@ public:
     Sphere(float ray, Vector center);
     double Value(const Vector& candidate) const override;
     Vector Gradient(const Vector& point) const override;
-    const Box autoBox();
+    const Box autoBox() const override;
 };

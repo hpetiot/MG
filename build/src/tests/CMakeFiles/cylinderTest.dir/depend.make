@@ -6,6 +6,8 @@ src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.o: ../src/GalinStuff/impl
 src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.o: ../src/GalinStuff/mathematics.h
 src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.o: ../src/GalinStuff/mesh.h
 src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.o: ../src/GalinStuff/ray.h
+src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.o: ../src/Tree/Node.hpp
+src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.o: ../src/Tree/Shapes/Shape.hpp
 src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.o: ../src/Tree/Shapes/cylinder.hpp
 src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.o: ../src/tests/cylinderTest.cpp
 

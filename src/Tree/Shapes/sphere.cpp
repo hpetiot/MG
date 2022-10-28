@@ -3,7 +3,7 @@
 //
 //#include <implicits.h>
 
-#include "sphere.hpp"
+#include <sphere.hpp>
 
 Sphere::Sphere(float ray, Vector center):ray(ray), center(center) {}
 
@@ -23,6 +23,6 @@ Vector Sphere::Gradient(const Vector &point) const{
     return Vector(gx, gy, gz);
 }
 
-const Box Sphere::autoBox() {
+const Box Sphere::autoBox() const {
     return Box(center, ray);
 }

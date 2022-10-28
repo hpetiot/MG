@@ -39,3 +39,6 @@ add_library(galinKit OBJECT
 link_libraries(
         galinKit
 )
+
+add_subdirectory(src/Tree)
+add_subdirectory(src/tests)

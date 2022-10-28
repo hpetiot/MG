@@ -95,6 +95,11 @@ sphereTest_OBJECTS = \
 
 # External object files for target sphereTest
 sphereTest_EXTERNAL_OBJECTS = \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Node.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o" \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o" \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o" \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o" \
@@ -102,13 +107,14 @@ sphereTest_EXTERNAL_OBJECTS = \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o" \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o" \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/AsfTree.dir/Operations/Translation.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/shapes.dir/Shapes/cylinder.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/shapes.dir/Shapes/sphere.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/shapes.dir/Shapes/tore.cpp.o"
+"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o"
 
 ../bin/sphereTest: src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Node.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o
@@ -117,10 +123,6 @@ sphereTest_EXTERNAL_OBJECTS = \
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o
-../bin/sphereTest: src/Tree/CMakeFiles/AsfTree.dir/Operations/Translation.cpp.o
-../bin/sphereTest: src/Tree/CMakeFiles/shapes.dir/Shapes/cylinder.cpp.o
-../bin/sphereTest: src/Tree/CMakeFiles/shapes.dir/Shapes/sphere.cpp.o
-../bin/sphereTest: src/Tree/CMakeFiles/shapes.dir/Shapes/tore.cpp.o
 ../bin/sphereTest: src/tests/CMakeFiles/sphereTest.dir/build.make
 ../bin/sphereTest: src/tests/CMakeFiles/sphereTest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../bin/sphereTest"

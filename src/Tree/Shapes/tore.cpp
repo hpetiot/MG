@@ -19,6 +19,6 @@ Vector Tore::Gradient(const Vector& point) const {
     return Vector(gx, gy, gz);
 }
 
-const Box Tore::autoBox(){
+const Box Tore::autoBox() const{
     return Box(center, diskRadius+tubeRadius);
 }

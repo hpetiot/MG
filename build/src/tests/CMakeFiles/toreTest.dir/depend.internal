@@ -7,5 +7,7 @@ src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.o
  ../src/GalinStuff/mathematics.h
  ../src/GalinStuff/mesh.h
  ../src/GalinStuff/ray.h
+ ../src/Tree/Node.hpp
+ ../src/Tree/Shapes/Shape.hpp
  ../src/Tree/Shapes/tore.hpp
  /home/hugo/Desktop/MG/src/tests/toreTest.cpp

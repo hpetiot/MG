@@ -6,6 +6,8 @@ src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o: ../src/GalinStuff/implicit
 src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o: ../src/GalinStuff/mathematics.h
 src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o: ../src/GalinStuff/mesh.h
 src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o: ../src/GalinStuff/ray.h
+src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o: ../src/Tree/Node.hpp
+src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o: ../src/Tree/Shapes/Shape.hpp
 src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o: ../src/Tree/Shapes/sphere.hpp
 src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o: ../src/tests/sphereTest.cpp
 

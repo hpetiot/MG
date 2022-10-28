@@ -73,18 +73,63 @@ CMAKE_BINARY_DIR = /home/hugo/Desktop/MG/build
 
 # The main recursive "all" target.
 all: CMakeFiles/galinKit.dir/all
+all: src/Tree/all
+all: src/tests/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: src/Tree/preinstall
+preinstall: src/tests/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/galinKit.dir/clean
+clean: src/Tree/clean
+clean: src/tests/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/Tree
+
+# Recursive "all" directory target.
+src/Tree/all: src/Tree/CMakeFiles/treeKit.dir/all
+
+.PHONY : src/Tree/all
+
+# Recursive "preinstall" directory target.
+src/Tree/preinstall:
+
+.PHONY : src/Tree/preinstall
+
+# Recursive "clean" directory target.
+src/Tree/clean: src/Tree/CMakeFiles/treeKit.dir/clean
+
+.PHONY : src/Tree/clean
+
+#=============================================================================
+# Directory level rules for directory src/tests
+
+# Recursive "all" directory target.
+src/tests/all: src/tests/CMakeFiles/toreTest.dir/all
+src/tests/all: src/tests/CMakeFiles/sphereTest.dir/all
+src/tests/all: src/tests/CMakeFiles/cylinderTest.dir/all
+
+.PHONY : src/tests/all
+
+# Recursive "preinstall" directory target.
+src/tests/preinstall:
+
+.PHONY : src/tests/preinstall
+
+# Recursive "clean" directory target.
+src/tests/clean: src/tests/CMakeFiles/toreTest.dir/clean
+src/tests/clean: src/tests/CMakeFiles/sphereTest.dir/clean
+src/tests/clean: src/tests/CMakeFiles/cylinderTest.dir/clean
+
+.PHONY : src/tests/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/galinKit.dir
@@ -93,7 +138,7 @@ clean: CMakeFiles/galinKit.dir/clean
 CMakeFiles/galinKit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target galinKit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Built target galinKit"
 .PHONY : CMakeFiles/galinKit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -112,6 +157,117 @@ galinKit: CMakeFiles/galinKit.dir/rule
 CMakeFiles/galinKit.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/clean
 .PHONY : CMakeFiles/galinKit.dir/clean
+
+#=============================================================================
+# Target rules for target src/Tree/CMakeFiles/treeKit.dir
+
+# All Build rule for target.
+src/Tree/CMakeFiles/treeKit.dir/all: CMakeFiles/galinKit.dir/all
+	$(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=15,16,17,18,19 "Built target treeKit"
+.PHONY : src/Tree/CMakeFiles/treeKit.dir/all
+
+# Build rule for subdir invocation for target.
+src/Tree/CMakeFiles/treeKit.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 13
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Tree/CMakeFiles/treeKit.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+.PHONY : src/Tree/CMakeFiles/treeKit.dir/rule
+
+# Convenience name for target.
+treeKit: src/Tree/CMakeFiles/treeKit.dir/rule
+
+.PHONY : treeKit
+
+# clean rule for target.
+src/Tree/CMakeFiles/treeKit.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/clean
+.PHONY : src/Tree/CMakeFiles/treeKit.dir/clean
+
+#=============================================================================
+# Target rules for target src/tests/CMakeFiles/toreTest.dir
+
+# All Build rule for target.
+src/tests/CMakeFiles/toreTest.dir/all: CMakeFiles/galinKit.dir/all
+src/tests/CMakeFiles/toreTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=13,14 "Built target toreTest"
+.PHONY : src/tests/CMakeFiles/toreTest.dir/all
+
+# Build rule for subdir invocation for target.
+src/tests/CMakeFiles/toreTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 15
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/toreTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+.PHONY : src/tests/CMakeFiles/toreTest.dir/rule
+
+# Convenience name for target.
+toreTest: src/tests/CMakeFiles/toreTest.dir/rule
+
+.PHONY : toreTest
+
+# clean rule for target.
+src/tests/CMakeFiles/toreTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/clean
+.PHONY : src/tests/CMakeFiles/toreTest.dir/clean
+
+#=============================================================================
+# Target rules for target src/tests/CMakeFiles/sphereTest.dir
+
+# All Build rule for target.
+src/tests/CMakeFiles/sphereTest.dir/all: CMakeFiles/galinKit.dir/all
+src/tests/CMakeFiles/sphereTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=11,12 "Built target sphereTest"
+.PHONY : src/tests/CMakeFiles/sphereTest.dir/all
+
+# Build rule for subdir invocation for target.
+src/tests/CMakeFiles/sphereTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 15
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/sphereTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+.PHONY : src/tests/CMakeFiles/sphereTest.dir/rule
+
+# Convenience name for target.
+sphereTest: src/tests/CMakeFiles/sphereTest.dir/rule
+
+.PHONY : sphereTest
+
+# clean rule for target.
+src/tests/CMakeFiles/sphereTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/clean
+.PHONY : src/tests/CMakeFiles/sphereTest.dir/clean
+
+#=============================================================================
+# Target rules for target src/tests/CMakeFiles/cylinderTest.dir
+
+# All Build rule for target.
+src/tests/CMakeFiles/cylinderTest.dir/all: CMakeFiles/galinKit.dir/all
+src/tests/CMakeFiles/cylinderTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=1,2 "Built target cylinderTest"
+.PHONY : src/tests/CMakeFiles/cylinderTest.dir/all
+
+# Build rule for subdir invocation for target.
+src/tests/CMakeFiles/cylinderTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 15
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/cylinderTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+.PHONY : src/tests/CMakeFiles/cylinderTest.dir/rule
+
+# Convenience name for target.
+cylinderTest: src/tests/CMakeFiles/cylinderTest.dir/rule
+
+.PHONY : cylinderTest
+
+# clean rule for target.
+src/tests/CMakeFiles/cylinderTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/clean
+.PHONY : src/tests/CMakeFiles/cylinderTest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
