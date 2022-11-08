@@ -4,12 +4,12 @@
 
 class Tore : public Shape{
 private:
-    const Vector center;
-    const float diskRadius;
-    const float tubeRadius;
+    double diskRay;
+    double tubeRay;
 public:
-    Tore(Vector center, float diskRadius, float tubeRadius);
-    double Value(const Vector& candidate) const override;
-    Vector Gradient(const Vector& point) const override;
-    const Box autoBox() const override;
+    Tore(double monoRay):diskRay(monoRay), tubeRay(monoRay), Shape{}{}
+    Tore(double diskRay, double tubeRay):diskRay(diskRay), tubeRay(tubeRay), Shape{}{}
+
+    double Value(const Vector& candidate) const;
+    Box autoBox() const;
 };

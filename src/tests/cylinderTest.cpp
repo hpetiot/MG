@@ -6,8 +6,8 @@
 #include <cylinder.hpp>
 int main(){
     Mesh cylinder;
-    Cylinder C(0.5, Vector(1.f, 1.f, 1.f), Vector(0.f, 0.f, 0.f));
+    Cylinder C(Vector(0.), Vector(0., 0., 1.), 0.5);
     C.Polygonize(50,cylinder,  C.autoBox());
     cylinder.SaveObj("./cylinder.obj", "");
-    return 1;
+    return 0;
 }

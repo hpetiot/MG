@@ -1,12 +1,12 @@
 #pragma once
+
 #include <../Node.hpp>
 
-class Shape : public Node{
+class Shape: public Node {
 public:
-    // Shape();
-    virtual double Value(const Vector& candidate)const;
-    virtual Vector Gradient(const Vector& point)const;
-    virtual const Box autoBox()const;
-    bool addSon(Node son);
-    int getWeight();
+    Shape():Node{SHAPE}{}
+    int getWeight(){return 0;}
+    bool addSon(Node* son);
+    virtual double Value(const Vector&) const = 0;
+    virtual Box autoBox() const =0;
 };

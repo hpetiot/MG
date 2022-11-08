@@ -6,7 +6,7 @@
 #include <sphere.hpp>
 int main(){
     Mesh sphere;
-    Sphere S(1.f, Vector(0.f, 0.f, 0.f));
+    Sphere S(1.f);
     S.Polygonize(10,sphere,  S.autoBox());
     sphere.SaveObj("./sphere.obj", "");
     return 1;

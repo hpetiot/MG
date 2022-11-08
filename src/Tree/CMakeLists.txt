@@ -1,13 +1,26 @@
 add_library(treeKit OBJECT
     Node.hpp
-    Node.cpp
-    Shapes/Shape.hpp    
+    Shapes/Shape.hpp
     Shapes/Shape.cpp
-    Shapes/cylinder.hpp
-    Shapes/cylinder.cpp
     Shapes/sphere.hpp
     Shapes/sphere.cpp
+    Shapes/cylinder.hpp
+    Shapes/cylinder.cpp
     Shapes/tore.hpp
     Shapes/tore.cpp
     Operations/Operation.hpp
+    Operations/NOp.hpp
+    Operations/UnOp.hpp
+    Operations/UnOp.cpp
+    Operations/BinOp.hpp
+    Operations/translation.hpp
+    Operations/translation.cpp
+    Operations/union.hpp
+    Operations/union.cpp
+    Operations/smoothUnion.hpp
+    Operations/smoothUnion.cpp
+    Operations/difference.hpp
+    Operations/difference.cpp
+    Operations/smoothDiff.hpp
+    Operations/smoothDiff.cpp
 )
