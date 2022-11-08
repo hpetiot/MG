@@ -38,13 +38,31 @@ mathematics.h
 mathematics.h
 ../src/GalinStuff/mathematics.h
 
-/home/hugo/Desktop/MG/src/Tree/Node.cpp
-Node.hpp
-/home/hugo/Desktop/MG/src/Tree/Node.hpp
-
-/home/hugo/Desktop/MG/src/Tree/Node.hpp
-implicits.h
+../src/Tree/Node.hpp
+memory
+-
+utility
 -
 vector
+-
+implicits.h
+-
+
+../src/Tree/Operations/BinOp.hpp
+Operation.hpp
+-
+
+../src/Tree/Operations/Operation.hpp
+../Node.hpp
+-
+vector
+-
+
+../src/Tree/Operations/smoothInter.hpp
+BinOp.hpp
+-
+
+/home/hugo/Desktop/MG/src/Tree/Operations/smoothInter.cpp
+smoothInter.hpp
 -
 

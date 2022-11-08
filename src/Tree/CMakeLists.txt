@@ -23,4 +23,8 @@ add_library(treeKit OBJECT
     Operations/difference.cpp
     Operations/smoothDiff.hpp
     Operations/smoothDiff.cpp
+    Operations/intersection.hpp
+    Operations/intersection.cpp
+    Operations/smoothInter.hpp
+    Operations/smoothInter.cpp
 )

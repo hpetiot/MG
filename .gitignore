@@ -1,16 +1,4 @@
 # Project exclude paths
 /cmake-build-debug/
-bin/cylinderTest
-bin/differenceTest
-bin/smoothDiffTest
-bin/smoothUnionTest
-bin/sphereTest
-bin/toreTest
-bin/translationTest
-bin/unionTest
-CMakeFiles/*
 .vscode/settings.json
-build/*
-bin/sphereTest
-bin/cylinderTest
 

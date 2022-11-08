@@ -12,6 +12,7 @@ enum AsfType{
     UNION,
     S_UNION,
     INTER,
+    S_INTER,
     DIFF,
     S_DIFF,
     TRANS,
@@ -24,7 +25,7 @@ protected:
     AsfType type;
 public:
     Node(AsfType type):type(type){}
-    ~Node(){}
+    //~Node(){}
     AsfType getType(){return type;}
     virtual bool addSon(Node* son) = 0;
     virtual int getWeight() = 0;

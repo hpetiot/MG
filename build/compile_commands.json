@@ -41,18 +41,8 @@
 },
 {
   "directory": "/home/hugo/Desktop/MG/build/src/Tree",
-  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/treeKit.dir/Node.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Node.cpp",
-  "file": "/home/hugo/Desktop/MG/src/Tree/Node.cpp"
-},
-{
-  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
   "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/Shape.cpp",
   "file": "/home/hugo/Desktop/MG/src/Tree/Shapes/Shape.cpp"
-},
-{
-  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
-  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/cylinder.cpp",
-  "file": "/home/hugo/Desktop/MG/src/Tree/Shapes/cylinder.cpp"
 },
 {
   "directory": "/home/hugo/Desktop/MG/build/src/Tree",
@@ -61,13 +51,93 @@
 },
 {
   "directory": "/home/hugo/Desktop/MG/build/src/Tree",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/cylinder.cpp",
+  "file": "/home/hugo/Desktop/MG/src/Tree/Shapes/cylinder.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
   "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/treeKit.dir/Shapes/tore.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/tore.cpp",
   "file": "/home/hugo/Desktop/MG/src/Tree/Shapes/tore.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/UnOp.cpp",
+  "file": "/home/hugo/Desktop/MG/src/Tree/Operations/UnOp.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/treeKit.dir/Operations/translation.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/translation.cpp",
+  "file": "/home/hugo/Desktop/MG/src/Tree/Operations/translation.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/treeKit.dir/Operations/union.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/union.cpp",
+  "file": "/home/hugo/Desktop/MG/src/Tree/Operations/union.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/smoothUnion.cpp",
+  "file": "/home/hugo/Desktop/MG/src/Tree/Operations/smoothUnion.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/treeKit.dir/Operations/difference.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/difference.cpp",
+  "file": "/home/hugo/Desktop/MG/src/Tree/Operations/difference.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/smoothDiff.cpp",
+  "file": "/home/hugo/Desktop/MG/src/Tree/Operations/smoothDiff.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/treeKit.dir/Operations/intersection.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/intersection.cpp",
+  "file": "/home/hugo/Desktop/MG/src/Tree/Operations/intersection.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/Tree",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/smoothInter.cpp",
+  "file": "/home/hugo/Desktop/MG/src/Tree/Operations/smoothInter.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/tests",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/smoothinterTest.dir/smoothinterTest.cpp.o -c /home/hugo/Desktop/MG/src/tests/smoothinterTest.cpp",
+  "file": "/home/hugo/Desktop/MG/src/tests/smoothinterTest.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/tests",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/intersectionTest.dir/intersectionTest.cpp.o -c /home/hugo/Desktop/MG/src/tests/intersectionTest.cpp",
+  "file": "/home/hugo/Desktop/MG/src/tests/intersectionTest.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/tests",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/smoothUnionTest.dir/smoothunionTest.cpp.o -c /home/hugo/Desktop/MG/src/tests/smoothunionTest.cpp",
+  "file": "/home/hugo/Desktop/MG/src/tests/smoothunionTest.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/tests",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/unionTest.dir/unionTest.cpp.o -c /home/hugo/Desktop/MG/src/tests/unionTest.cpp",
+  "file": "/home/hugo/Desktop/MG/src/tests/unionTest.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/tests",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/translationTest.dir/translationTest.cpp.o -c /home/hugo/Desktop/MG/src/tests/translationTest.cpp",
+  "file": "/home/hugo/Desktop/MG/src/tests/translationTest.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/tests",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/differenceTest.dir/differenceTest.cpp.o -c /home/hugo/Desktop/MG/src/tests/differenceTest.cpp",
+  "file": "/home/hugo/Desktop/MG/src/tests/differenceTest.cpp"
 },
 {
   "directory": "/home/hugo/Desktop/MG/build/src/tests",
   "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/toreTest.dir/toreTest.cpp.o -c /home/hugo/Desktop/MG/src/tests/toreTest.cpp",
   "file": "/home/hugo/Desktop/MG/src/tests/toreTest.cpp"
+},
+{
+  "directory": "/home/hugo/Desktop/MG/build/src/tests",
+  "command": "/usr/bin/clang++  -I/home/hugo/Desktop/MG/src/GalinStuff -I/home/hugo/Desktop/MG/src/Tree/Shapes -I/home/hugo/Desktop/MG/src/Tree/Operations -g -o CMakeFiles/smoothDiffTest.dir/smoothdiffTest.cpp.o -c /home/hugo/Desktop/MG/src/tests/smoothdiffTest.cpp",
+  "file": "/home/hugo/Desktop/MG/src/tests/smoothdiffTest.cpp"
 },
 {
   "directory": "/home/hugo/Desktop/MG/build/src/tests",

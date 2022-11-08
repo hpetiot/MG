@@ -37,3 +37,14 @@ add_executable(smoothDiffTest
     $<TARGET_OBJECTS:treeKit>
     smoothdiffTest.cpp
 )
+
+add_executable(intersectionTest
+    $<TARGET_OBJECTS:treeKit>
+    intersectionTest.cpp
+)
+
+add_executable(smoothinterTest
+    $<TARGET_OBJECTS:treeKit>
+    smoothinterTest.cpp
+)
+

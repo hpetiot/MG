@@ -95,11 +95,18 @@ sphereTest_OBJECTS = \
 
 # External object files for target sphereTest
 sphereTest_EXTERNAL_OBJECTS = \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Node.cpp.o" \
 "/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o" \
 "/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o" \
 "/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o" \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o" \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o" \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o" \
@@ -110,11 +117,18 @@ sphereTest_EXTERNAL_OBJECTS = \
 "/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o"
 
 ../bin/sphereTest: src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o
-../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Node.cpp.o
 ../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o
-../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o
 ../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o
 ../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o
+../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o

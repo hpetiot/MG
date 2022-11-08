@@ -156,6 +156,84 @@ treeKit/fast:
 .PHONY : treeKit/fast
 
 #=============================================================================
+# Target rules for targets named smoothinterTest
+
+# Build rule for target.
+smoothinterTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smoothinterTest
+.PHONY : smoothinterTest
+
+# fast build rule for target.
+smoothinterTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothinterTest.dir/build.make src/tests/CMakeFiles/smoothinterTest.dir/build
+.PHONY : smoothinterTest/fast
+
+#=============================================================================
+# Target rules for targets named intersectionTest
+
+# Build rule for target.
+intersectionTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 intersectionTest
+.PHONY : intersectionTest
+
+# fast build rule for target.
+intersectionTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/intersectionTest.dir/build.make src/tests/CMakeFiles/intersectionTest.dir/build
+.PHONY : intersectionTest/fast
+
+#=============================================================================
+# Target rules for targets named smoothUnionTest
+
+# Build rule for target.
+smoothUnionTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smoothUnionTest
+.PHONY : smoothUnionTest
+
+# fast build rule for target.
+smoothUnionTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothUnionTest.dir/build.make src/tests/CMakeFiles/smoothUnionTest.dir/build
+.PHONY : smoothUnionTest/fast
+
+#=============================================================================
+# Target rules for targets named unionTest
+
+# Build rule for target.
+unionTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unionTest
+.PHONY : unionTest
+
+# fast build rule for target.
+unionTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/unionTest.dir/build.make src/tests/CMakeFiles/unionTest.dir/build
+.PHONY : unionTest/fast
+
+#=============================================================================
+# Target rules for targets named translationTest
+
+# Build rule for target.
+translationTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 translationTest
+.PHONY : translationTest
+
+# fast build rule for target.
+translationTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/translationTest.dir/build.make src/tests/CMakeFiles/translationTest.dir/build
+.PHONY : translationTest/fast
+
+#=============================================================================
+# Target rules for targets named differenceTest
+
+# Build rule for target.
+differenceTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 differenceTest
+.PHONY : differenceTest
+
+# fast build rule for target.
+differenceTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/differenceTest.dir/build.make src/tests/CMakeFiles/differenceTest.dir/build
+.PHONY : differenceTest/fast
+
+#=============================================================================
 # Target rules for targets named toreTest
 
 # Build rule for target.
@@ -167,6 +245,19 @@ toreTest: cmake_check_build_system
 toreTest/fast:
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/build
 .PHONY : toreTest/fast
+
+#=============================================================================
+# Target rules for targets named smoothDiffTest
+
+# Build rule for target.
+smoothDiffTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smoothDiffTest
+.PHONY : smoothDiffTest
+
+# fast build rule for target.
+smoothDiffTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/build
+.PHONY : smoothDiffTest/fast
 
 #=============================================================================
 # Target rules for targets named sphereTest
@@ -419,10 +510,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cylinderTest"
+	@echo "... differenceTest"
 	@echo "... galinKit"
+	@echo "... intersectionTest"
+	@echo "... smoothDiffTest"
+	@echo "... smoothUnionTest"
+	@echo "... smoothinterTest"
 	@echo "... sphereTest"
 	@echo "... toreTest"
+	@echo "... translationTest"
 	@echo "... treeKit"
+	@echo "... unionTest"
 	@echo "... src/GalinStuff/box.o"
 	@echo "... src/GalinStuff/box.i"
 	@echo "... src/GalinStuff/box.s"

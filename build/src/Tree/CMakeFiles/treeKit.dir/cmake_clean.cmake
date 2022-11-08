@@ -1,5 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/treeKit.dir/Node.cpp.o"
+  "CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o"
+  "CMakeFiles/treeKit.dir/Operations/difference.cpp.o"
+  "CMakeFiles/treeKit.dir/Operations/intersection.cpp.o"
+  "CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o"
+  "CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o"
+  "CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o"
+  "CMakeFiles/treeKit.dir/Operations/translation.cpp.o"
+  "CMakeFiles/treeKit.dir/Operations/union.cpp.o"
   "CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o"
   "CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o"
   "CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o"

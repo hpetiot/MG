@@ -144,32 +144,221 @@ treeKit/fast:
 	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/build
 .PHONY : treeKit/fast
 
-Node.o: Node.cpp.o
+Operations/UnOp.o: Operations/UnOp.cpp.o
 
-.PHONY : Node.o
+.PHONY : Operations/UnOp.o
 
 # target to build an object file
-Node.cpp.o:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Node.cpp.o
-.PHONY : Node.cpp.o
+Operations/UnOp.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o
+.PHONY : Operations/UnOp.cpp.o
 
-Node.i: Node.cpp.i
+Operations/UnOp.i: Operations/UnOp.cpp.i
 
-.PHONY : Node.i
+.PHONY : Operations/UnOp.i
 
 # target to preprocess a source file
-Node.cpp.i:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Node.cpp.i
-.PHONY : Node.cpp.i
+Operations/UnOp.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.i
+.PHONY : Operations/UnOp.cpp.i
 
-Node.s: Node.cpp.s
+Operations/UnOp.s: Operations/UnOp.cpp.s
 
-.PHONY : Node.s
+.PHONY : Operations/UnOp.s
 
 # target to generate assembly for a file
-Node.cpp.s:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Node.cpp.s
-.PHONY : Node.cpp.s
+Operations/UnOp.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.s
+.PHONY : Operations/UnOp.cpp.s
+
+Operations/difference.o: Operations/difference.cpp.o
+
+.PHONY : Operations/difference.o
+
+# target to build an object file
+Operations/difference.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o
+.PHONY : Operations/difference.cpp.o
+
+Operations/difference.i: Operations/difference.cpp.i
+
+.PHONY : Operations/difference.i
+
+# target to preprocess a source file
+Operations/difference.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.i
+.PHONY : Operations/difference.cpp.i
+
+Operations/difference.s: Operations/difference.cpp.s
+
+.PHONY : Operations/difference.s
+
+# target to generate assembly for a file
+Operations/difference.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.s
+.PHONY : Operations/difference.cpp.s
+
+Operations/intersection.o: Operations/intersection.cpp.o
+
+.PHONY : Operations/intersection.o
+
+# target to build an object file
+Operations/intersection.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o
+.PHONY : Operations/intersection.cpp.o
+
+Operations/intersection.i: Operations/intersection.cpp.i
+
+.PHONY : Operations/intersection.i
+
+# target to preprocess a source file
+Operations/intersection.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.i
+.PHONY : Operations/intersection.cpp.i
+
+Operations/intersection.s: Operations/intersection.cpp.s
+
+.PHONY : Operations/intersection.s
+
+# target to generate assembly for a file
+Operations/intersection.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.s
+.PHONY : Operations/intersection.cpp.s
+
+Operations/smoothDiff.o: Operations/smoothDiff.cpp.o
+
+.PHONY : Operations/smoothDiff.o
+
+# target to build an object file
+Operations/smoothDiff.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o
+.PHONY : Operations/smoothDiff.cpp.o
+
+Operations/smoothDiff.i: Operations/smoothDiff.cpp.i
+
+.PHONY : Operations/smoothDiff.i
+
+# target to preprocess a source file
+Operations/smoothDiff.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.i
+.PHONY : Operations/smoothDiff.cpp.i
+
+Operations/smoothDiff.s: Operations/smoothDiff.cpp.s
+
+.PHONY : Operations/smoothDiff.s
+
+# target to generate assembly for a file
+Operations/smoothDiff.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.s
+.PHONY : Operations/smoothDiff.cpp.s
+
+Operations/smoothInter.o: Operations/smoothInter.cpp.o
+
+.PHONY : Operations/smoothInter.o
+
+# target to build an object file
+Operations/smoothInter.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o
+.PHONY : Operations/smoothInter.cpp.o
+
+Operations/smoothInter.i: Operations/smoothInter.cpp.i
+
+.PHONY : Operations/smoothInter.i
+
+# target to preprocess a source file
+Operations/smoothInter.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.i
+.PHONY : Operations/smoothInter.cpp.i
+
+Operations/smoothInter.s: Operations/smoothInter.cpp.s
+
+.PHONY : Operations/smoothInter.s
+
+# target to generate assembly for a file
+Operations/smoothInter.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.s
+.PHONY : Operations/smoothInter.cpp.s
+
+Operations/smoothUnion.o: Operations/smoothUnion.cpp.o
+
+.PHONY : Operations/smoothUnion.o
+
+# target to build an object file
+Operations/smoothUnion.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o
+.PHONY : Operations/smoothUnion.cpp.o
+
+Operations/smoothUnion.i: Operations/smoothUnion.cpp.i
+
+.PHONY : Operations/smoothUnion.i
+
+# target to preprocess a source file
+Operations/smoothUnion.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.i
+.PHONY : Operations/smoothUnion.cpp.i
+
+Operations/smoothUnion.s: Operations/smoothUnion.cpp.s
+
+.PHONY : Operations/smoothUnion.s
+
+# target to generate assembly for a file
+Operations/smoothUnion.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.s
+.PHONY : Operations/smoothUnion.cpp.s
+
+Operations/translation.o: Operations/translation.cpp.o
+
+.PHONY : Operations/translation.o
+
+# target to build an object file
+Operations/translation.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o
+.PHONY : Operations/translation.cpp.o
+
+Operations/translation.i: Operations/translation.cpp.i
+
+.PHONY : Operations/translation.i
+
+# target to preprocess a source file
+Operations/translation.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.i
+.PHONY : Operations/translation.cpp.i
+
+Operations/translation.s: Operations/translation.cpp.s
+
+.PHONY : Operations/translation.s
+
+# target to generate assembly for a file
+Operations/translation.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.s
+.PHONY : Operations/translation.cpp.s
+
+Operations/union.o: Operations/union.cpp.o
+
+.PHONY : Operations/union.o
+
+# target to build an object file
+Operations/union.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o
+.PHONY : Operations/union.cpp.o
+
+Operations/union.i: Operations/union.cpp.i
+
+.PHONY : Operations/union.i
+
+# target to preprocess a source file
+Operations/union.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.i
+.PHONY : Operations/union.cpp.i
+
+Operations/union.s: Operations/union.cpp.s
+
+.PHONY : Operations/union.s
+
+# target to generate assembly for a file
+Operations/union.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.s
+.PHONY : Operations/union.cpp.s
 
 Shapes/Shape.o: Shapes/Shape.cpp.o
 
@@ -288,9 +477,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... treeKit"
-	@echo "... Node.o"
-	@echo "... Node.i"
-	@echo "... Node.s"
+	@echo "... Operations/UnOp.o"
+	@echo "... Operations/UnOp.i"
+	@echo "... Operations/UnOp.s"
+	@echo "... Operations/difference.o"
+	@echo "... Operations/difference.i"
+	@echo "... Operations/difference.s"
+	@echo "... Operations/intersection.o"
+	@echo "... Operations/intersection.i"
+	@echo "... Operations/intersection.s"
+	@echo "... Operations/smoothDiff.o"
+	@echo "... Operations/smoothDiff.i"
+	@echo "... Operations/smoothDiff.s"
+	@echo "... Operations/smoothInter.o"
+	@echo "... Operations/smoothInter.i"
+	@echo "... Operations/smoothInter.s"
+	@echo "... Operations/smoothUnion.o"
+	@echo "... Operations/smoothUnion.i"
+	@echo "... Operations/smoothUnion.s"
+	@echo "... Operations/translation.o"
+	@echo "... Operations/translation.i"
+	@echo "... Operations/translation.s"
+	@echo "... Operations/union.o"
+	@echo "... Operations/union.i"
+	@echo "... Operations/union.s"
 	@echo "... Shapes/Shape.o"
 	@echo "... Shapes/Shape.i"
 	@echo "... Shapes/Shape.s"
