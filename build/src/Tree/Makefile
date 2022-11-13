@@ -225,6 +225,33 @@ Operations/intersection.cpp.s:
 	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.s
 .PHONY : Operations/intersection.cpp.s
 
+Operations/rotations.o: Operations/rotations.cpp.o
+
+.PHONY : Operations/rotations.o
+
+# target to build an object file
+Operations/rotations.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o
+.PHONY : Operations/rotations.cpp.o
+
+Operations/rotations.i: Operations/rotations.cpp.i
+
+.PHONY : Operations/rotations.i
+
+# target to preprocess a source file
+Operations/rotations.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.i
+.PHONY : Operations/rotations.cpp.i
+
+Operations/rotations.s: Operations/rotations.cpp.s
+
+.PHONY : Operations/rotations.s
+
+# target to generate assembly for a file
+Operations/rotations.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.s
+.PHONY : Operations/rotations.cpp.s
+
 Operations/smoothDiff.o: Operations/smoothDiff.cpp.o
 
 .PHONY : Operations/smoothDiff.o
@@ -387,6 +414,33 @@ Shapes/Shape.cpp.s:
 	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.s
 .PHONY : Shapes/Shape.cpp.s
 
+Shapes/brick.o: Shapes/brick.cpp.o
+
+.PHONY : Shapes/brick.o
+
+# target to build an object file
+Shapes/brick.cpp.o:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o
+.PHONY : Shapes/brick.cpp.o
+
+Shapes/brick.i: Shapes/brick.cpp.i
+
+.PHONY : Shapes/brick.i
+
+# target to preprocess a source file
+Shapes/brick.cpp.i:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.i
+.PHONY : Shapes/brick.cpp.i
+
+Shapes/brick.s: Shapes/brick.cpp.s
+
+.PHONY : Shapes/brick.s
+
+# target to generate assembly for a file
+Shapes/brick.cpp.s:
+	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.s
+.PHONY : Shapes/brick.cpp.s
+
 Shapes/cylinder.o: Shapes/cylinder.cpp.o
 
 .PHONY : Shapes/cylinder.o
@@ -486,6 +540,9 @@ help:
 	@echo "... Operations/intersection.o"
 	@echo "... Operations/intersection.i"
 	@echo "... Operations/intersection.s"
+	@echo "... Operations/rotations.o"
+	@echo "... Operations/rotations.i"
+	@echo "... Operations/rotations.s"
 	@echo "... Operations/smoothDiff.o"
 	@echo "... Operations/smoothDiff.i"
 	@echo "... Operations/smoothDiff.s"
@@ -504,6 +561,9 @@ help:
 	@echo "... Shapes/Shape.o"
 	@echo "... Shapes/Shape.i"
 	@echo "... Shapes/Shape.s"
+	@echo "... Shapes/brick.o"
+	@echo "... Shapes/brick.i"
+	@echo "... Shapes/brick.s"
 	@echo "... Shapes/cylinder.o"
 	@echo "... Shapes/cylinder.i"
 	@echo "... Shapes/cylinder.s"

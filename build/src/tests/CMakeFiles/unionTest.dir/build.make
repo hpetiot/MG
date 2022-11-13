@@ -99,9 +99,11 @@ unionTest_EXTERNAL_OBJECTS = \
 "/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o" \
 "/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o" \
 "/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o" \
 "/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o" \
 "/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o" \
 "/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o" \
+"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o" \
 "/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o" \
 "/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o" \
 "/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o" \
@@ -121,9 +123,11 @@ unionTest_EXTERNAL_OBJECTS = \
 ../bin/unionTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o
 ../bin/unionTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o
 ../bin/unionTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o
+../bin/unionTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o
 ../bin/unionTest: src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o
 ../bin/unionTest: src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o
 ../bin/unionTest: src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o
+../bin/unionTest: src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o
 ../bin/unionTest: src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o
 ../bin/unionTest: src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o
 ../bin/unionTest: src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o

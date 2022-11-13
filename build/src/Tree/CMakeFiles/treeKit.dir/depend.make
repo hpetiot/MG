@@ -33,6 +33,17 @@ src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o: ../src/Tree/Opera
 src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o: ../src/Tree/Operations/intersection.hpp
 src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o: ../src/Tree/Operations/intersection.cpp
 
+src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o: ../src/GalinStuff/box.h
+src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o: ../src/GalinStuff/implicits.h
+src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o: ../src/GalinStuff/mathematics.h
+src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o: ../src/GalinStuff/mesh.h
+src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o: ../src/GalinStuff/ray.h
+src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o: ../src/Tree/Node.hpp
+src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o: ../src/Tree/Operations/Operation.hpp
+src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o: ../src/Tree/Operations/UnOp.hpp
+src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o: ../src/Tree/Operations/rotations.hpp
+src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o: ../src/Tree/Operations/rotations.cpp
+
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o: ../src/GalinStuff/box.h
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o: ../src/GalinStuff/implicits.h
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o: ../src/GalinStuff/mathematics.h
@@ -96,6 +107,16 @@ src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o: ../src/GalinStuff/ray.h
 src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o: ../src/Tree/Node.hpp
 src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o: ../src/Tree/Shapes/Shape.hpp
 src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o: ../src/Tree/Shapes/Shape.cpp
+
+src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o: ../src/GalinStuff/box.h
+src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o: ../src/GalinStuff/implicits.h
+src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o: ../src/GalinStuff/mathematics.h
+src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o: ../src/GalinStuff/mesh.h
+src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o: ../src/GalinStuff/ray.h
+src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o: ../src/Tree/Node.hpp
+src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o: ../src/Tree/Shapes/Shape.hpp
+src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o: ../src/Tree/Shapes/brick.hpp
+src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o: ../src/Tree/Shapes/brick.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o: ../src/GalinStuff/box.h
 src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o: ../src/GalinStuff/implicits.h

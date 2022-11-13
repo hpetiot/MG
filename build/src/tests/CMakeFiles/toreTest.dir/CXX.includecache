@@ -39,9 +39,13 @@ mathematics.h
 ../src/GalinStuff/mathematics.h
 
 ../src/Tree/Node.hpp
-implicits.h
+memory
+-
+utility
 -
 vector
+-
+implicits.h
 -
 
 ../src/Tree/Shapes/Shape.hpp

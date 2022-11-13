@@ -156,56 +156,56 @@ treeKit/fast:
 .PHONY : treeKit/fast
 
 #=============================================================================
-# Target rules for targets named smoothinterTest
+# Target rules for targets named cylinderTest
 
 # Build rule for target.
-smoothinterTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smoothinterTest
-.PHONY : smoothinterTest
+cylinderTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cylinderTest
+.PHONY : cylinderTest
 
 # fast build rule for target.
-smoothinterTest/fast:
-	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothinterTest.dir/build.make src/tests/CMakeFiles/smoothinterTest.dir/build
-.PHONY : smoothinterTest/fast
+cylinderTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/build
+.PHONY : cylinderTest/fast
 
 #=============================================================================
-# Target rules for targets named intersectionTest
+# Target rules for targets named sphereTest
 
 # Build rule for target.
-intersectionTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 intersectionTest
-.PHONY : intersectionTest
+sphereTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sphereTest
+.PHONY : sphereTest
 
 # fast build rule for target.
-intersectionTest/fast:
-	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/intersectionTest.dir/build.make src/tests/CMakeFiles/intersectionTest.dir/build
-.PHONY : intersectionTest/fast
+sphereTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/build
+.PHONY : sphereTest/fast
 
 #=============================================================================
-# Target rules for targets named smoothUnionTest
+# Target rules for targets named smoothDiffTest
 
 # Build rule for target.
-smoothUnionTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smoothUnionTest
-.PHONY : smoothUnionTest
+smoothDiffTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smoothDiffTest
+.PHONY : smoothDiffTest
 
 # fast build rule for target.
-smoothUnionTest/fast:
-	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothUnionTest.dir/build.make src/tests/CMakeFiles/smoothUnionTest.dir/build
-.PHONY : smoothUnionTest/fast
+smoothDiffTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/build
+.PHONY : smoothDiffTest/fast
 
 #=============================================================================
-# Target rules for targets named unionTest
+# Target rules for targets named toreTest
 
 # Build rule for target.
-unionTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unionTest
-.PHONY : unionTest
+toreTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 toreTest
+.PHONY : toreTest
 
 # fast build rule for target.
-unionTest/fast:
-	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/unionTest.dir/build.make src/tests/CMakeFiles/unionTest.dir/build
-.PHONY : unionTest/fast
+toreTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/build
+.PHONY : toreTest/fast
 
 #=============================================================================
 # Target rules for targets named translationTest
@@ -234,56 +234,82 @@ differenceTest/fast:
 .PHONY : differenceTest/fast
 
 #=============================================================================
-# Target rules for targets named toreTest
+# Target rules for targets named unionTest
 
 # Build rule for target.
-toreTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 toreTest
-.PHONY : toreTest
+unionTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unionTest
+.PHONY : unionTest
 
 # fast build rule for target.
-toreTest/fast:
-	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/build
-.PHONY : toreTest/fast
+unionTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/unionTest.dir/build.make src/tests/CMakeFiles/unionTest.dir/build
+.PHONY : unionTest/fast
 
 #=============================================================================
-# Target rules for targets named smoothDiffTest
+# Target rules for targets named smoothUnionTest
 
 # Build rule for target.
-smoothDiffTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smoothDiffTest
-.PHONY : smoothDiffTest
+smoothUnionTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smoothUnionTest
+.PHONY : smoothUnionTest
 
 # fast build rule for target.
-smoothDiffTest/fast:
-	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/build
-.PHONY : smoothDiffTest/fast
+smoothUnionTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothUnionTest.dir/build.make src/tests/CMakeFiles/smoothUnionTest.dir/build
+.PHONY : smoothUnionTest/fast
 
 #=============================================================================
-# Target rules for targets named sphereTest
+# Target rules for targets named intersectionTest
 
 # Build rule for target.
-sphereTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sphereTest
-.PHONY : sphereTest
+intersectionTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 intersectionTest
+.PHONY : intersectionTest
 
 # fast build rule for target.
-sphereTest/fast:
-	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/build
-.PHONY : sphereTest/fast
+intersectionTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/intersectionTest.dir/build.make src/tests/CMakeFiles/intersectionTest.dir/build
+.PHONY : intersectionTest/fast
 
 #=============================================================================
-# Target rules for targets named cylinderTest
+# Target rules for targets named smoothinterTest
 
 # Build rule for target.
-cylinderTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cylinderTest
-.PHONY : cylinderTest
+smoothinterTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smoothinterTest
+.PHONY : smoothinterTest
 
 # fast build rule for target.
-cylinderTest/fast:
-	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/build
-.PHONY : cylinderTest/fast
+smoothinterTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothinterTest.dir/build.make src/tests/CMakeFiles/smoothinterTest.dir/build
+.PHONY : smoothinterTest/fast
+
+#=============================================================================
+# Target rules for targets named brickTest
+
+# Build rule for target.
+brickTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 brickTest
+.PHONY : brickTest
+
+# fast build rule for target.
+brickTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/brickTest.dir/build.make src/tests/CMakeFiles/brickTest.dir/build
+.PHONY : brickTest/fast
+
+#=============================================================================
+# Target rules for targets named rotationOnlyTest
+
+# Build rule for target.
+rotationOnlyTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rotationOnlyTest
+.PHONY : rotationOnlyTest
+
+# fast build rule for target.
+rotationOnlyTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationOnlyTest.dir/build.make src/tests/CMakeFiles/rotationOnlyTest.dir/build
+.PHONY : rotationOnlyTest/fast
 
 src/GalinStuff/box.o: src/GalinStuff/box.cpp.o
 
@@ -509,10 +535,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... brickTest"
 	@echo "... cylinderTest"
 	@echo "... differenceTest"
 	@echo "... galinKit"
 	@echo "... intersectionTest"
+	@echo "... rotationOnlyTest"
 	@echo "... smoothDiffTest"
 	@echo "... smoothUnionTest"
 	@echo "... smoothinterTest"

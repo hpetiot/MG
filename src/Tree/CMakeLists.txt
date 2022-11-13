@@ -8,6 +8,8 @@ add_library(treeKit OBJECT
     Shapes/cylinder.cpp
     Shapes/tore.hpp
     Shapes/tore.cpp
+    Shapes/brick.hpp
+    Shapes/brick.cpp
     Operations/Operation.hpp
     Operations/NOp.hpp
     Operations/UnOp.hpp
@@ -17,6 +19,8 @@ add_library(treeKit OBJECT
     Operations/translation.cpp
     Operations/union.hpp
     Operations/union.cpp
+    Operations/rotations.hpp
+    Operations/rotations.cpp
     Operations/smoothUnion.hpp
     Operations/smoothUnion.cpp
     Operations/difference.hpp

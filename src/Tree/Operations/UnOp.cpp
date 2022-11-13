@@ -10,9 +10,10 @@ int UnOp::getWeight(){
 }
 
 bool UnOp::addSon(Node* son){
-    if(sons.size() == 0){
+    if(sons.size() < maxSons){
         sons.emplace_back(son);
         return true;
     }
+    std::cout << "addson OUT didn't add son" << std::endl;
     return false;
 }

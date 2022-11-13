@@ -48,3 +48,13 @@ add_executable(smoothinterTest
     smoothinterTest.cpp
 )
 
+add_executable(brickTest
+    $<TARGET_OBJECTS:treeKit>
+    brickTest.cpp
+)
+
+add_executable(rotationOnlyTest
+    $<TARGET_OBJECTS:treeKit>
+    rotationOnlyTest.cpp
+)
+

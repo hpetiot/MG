@@ -6,35 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/hugo/Desktop/MG/src/GalinStuff/box.h
-vector
--
-iostream
--
+/home/hugo/Desktop/MG/src/GalinStuff/evector.cpp
 mathematics.h
 /home/hugo/Desktop/MG/src/GalinStuff/mathematics.h
+iostream
+-
 
 /home/hugo/Desktop/MG/src/GalinStuff/mathematics.h
 math.h
 -
 ostream
 -
-
-/home/hugo/Desktop/MG/src/GalinStuff/mesh.cpp
-fstream
--
-mesh.h
-/home/hugo/Desktop/MG/src/GalinStuff/mesh.h
-
-/home/hugo/Desktop/MG/src/GalinStuff/mesh.h
-box.h
-/home/hugo/Desktop/MG/src/GalinStuff/box.h
-ray.h
-/home/hugo/Desktop/MG/src/GalinStuff/ray.h
-mathematics.h
-/home/hugo/Desktop/MG/src/GalinStuff/mathematics.h
-
-/home/hugo/Desktop/MG/src/GalinStuff/ray.h
-mathematics.h
-/home/hugo/Desktop/MG/src/GalinStuff/mathematics.h
 
