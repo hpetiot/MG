@@ -58,3 +58,12 @@ add_executable(rotationOnlyTest
     rotationOnlyTest.cpp
 )
 
+add_executable(rotationsMultiTest
+    $<TARGET_OBJECTS:treeKit>
+    rotationsMultiTest.cpp
+)
+
+add_executable(mainResult
+    $<TARGET_OBJECTS:treeKit>
+    mainResult.cpp
+)

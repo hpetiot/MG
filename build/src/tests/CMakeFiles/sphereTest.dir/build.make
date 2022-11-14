@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hugo/Desktop/MG
+CMAKE_SOURCE_DIR = /home/hugo/Bureau/M2/MG
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hugo/Desktop/MG/build
+CMAKE_BINARY_DIR = /home/hugo/Bureau/M2/MG/build
 
 # Include any dependencies generated for this target.
 include src/tests/CMakeFiles/sphereTest.dir/depend.make
@@ -78,16 +78,16 @@ include src/tests/CMakeFiles/sphereTest.dir/flags.make
 
 src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o: src/tests/CMakeFiles/sphereTest.dir/flags.make
 src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o: ../src/tests/sphereTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sphereTest.dir/sphereTest.cpp.o -c /home/hugo/Desktop/MG/src/tests/sphereTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sphereTest.dir/sphereTest.cpp.o -c /home/hugo/Bureau/M2/MG/src/tests/sphereTest.cpp
 
 src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sphereTest.dir/sphereTest.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/tests/sphereTest.cpp > CMakeFiles/sphereTest.dir/sphereTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/tests/sphereTest.cpp > CMakeFiles/sphereTest.dir/sphereTest.cpp.i
 
 src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sphereTest.dir/sphereTest.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/tests/sphereTest.cpp -o CMakeFiles/sphereTest.dir/sphereTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/tests/sphereTest.cpp -o CMakeFiles/sphereTest.dir/sphereTest.cpp.s
 
 # Object files for target sphereTest
 sphereTest_OBJECTS = \
@@ -95,28 +95,28 @@ sphereTest_OBJECTS = \
 
 # External object files for target sphereTest
 sphereTest_EXTERNAL_OBJECTS = \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o"
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o"
 
 ../bin/sphereTest: src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o
 ../bin/sphereTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o
@@ -143,8 +143,8 @@ sphereTest_EXTERNAL_OBJECTS = \
 ../bin/sphereTest: CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o
 ../bin/sphereTest: src/tests/CMakeFiles/sphereTest.dir/build.make
 ../bin/sphereTest: src/tests/CMakeFiles/sphereTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../bin/sphereTest"
-	cd /home/hugo/Desktop/MG/build/src/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sphereTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../bin/sphereTest"
+	cd /home/hugo/Bureau/M2/MG/build/src/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sphereTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/tests/CMakeFiles/sphereTest.dir/build: ../bin/sphereTest
@@ -152,10 +152,10 @@ src/tests/CMakeFiles/sphereTest.dir/build: ../bin/sphereTest
 .PHONY : src/tests/CMakeFiles/sphereTest.dir/build
 
 src/tests/CMakeFiles/sphereTest.dir/clean:
-	cd /home/hugo/Desktop/MG/build/src/tests && $(CMAKE_COMMAND) -P CMakeFiles/sphereTest.dir/cmake_clean.cmake
+	cd /home/hugo/Bureau/M2/MG/build/src/tests && $(CMAKE_COMMAND) -P CMakeFiles/sphereTest.dir/cmake_clean.cmake
 .PHONY : src/tests/CMakeFiles/sphereTest.dir/clean
 
 src/tests/CMakeFiles/sphereTest.dir/depend:
-	cd /home/hugo/Desktop/MG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hugo/Desktop/MG /home/hugo/Desktop/MG/src/tests /home/hugo/Desktop/MG/build /home/hugo/Desktop/MG/build/src/tests /home/hugo/Desktop/MG/build/src/tests/CMakeFiles/sphereTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hugo/Bureau/M2/MG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hugo/Bureau/M2/MG /home/hugo/Bureau/M2/MG/src/tests /home/hugo/Bureau/M2/MG/build /home/hugo/Bureau/M2/MG/build/src/tests /home/hugo/Bureau/M2/MG/build/src/tests/CMakeFiles/sphereTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/tests/CMakeFiles/sphereTest.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/hugo/Desktop/MG/src/Tree
+# Install script for directory: /home/hugo/Bureau/M2/MG/src/Tree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

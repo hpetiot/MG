@@ -31,18 +31,13 @@ double Rotations::Value(const Vector& candidate) const{
 
 Box Rotations::autoBox()const{
     Box sonsBox = sons.at(0)->autoBox();
-    Vector b = sonsBox[1];
-    Vector a = sonsBox[0];
-    double A_x = a[0]*m[0][0] + a[1]*m[0][1] + a[2]* m[0][2];
-    double A_y = a[0]*m[1][0] + a[1]*m[1][1] + a[2] * m[1][2];
-    double A_z = a[0]*m[2][0] + a[1]*m[2][1] + a[2] * m[2][2];
-
-    double B_x = b[0]*m[0][0] + b[1]*m[0][1] + b[2]* m[0][2];
-    double B_y = b[0]*m[1][0] + b[1]*m[1][1] + b[2] * m[1][2];
-    double B_z = b[0]*m[2][0] + b[1]*m[2][1] + b[2] * m[2][2];
-
-    return(Box(Vector(B_x, B_y, B_z), Vector(A_x, A_y, A_z)));
+    Vector originalPoint = sonsBox.Center();
+    double radius = sonsBox.Radius();
+    double A_x = originalPoint[0]*m[0][0] + originalPoint[1]*m[0][1] + originalPoint[2]* m[0][2];
+    double A_y = originalPoint[0]*m[1][0] + originalPoint[1]*m[1][1] + originalPoint[2] * m[1][2];
+    double A_z = originalPoint[0]*m[2][0] + originalPoint[1]*m[2][1] + originalPoint[2] * m[2][2];
     //TMP
+    return Box{Vector(A_x, A_y, A_z), radius*1.5};
 }
 
 

@@ -54,9 +54,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/galinKit.dir/DependInfo.cmake"
   "src/Tree/CMakeFiles/treeKit.dir/DependInfo.cmake"
+  "src/tests/CMakeFiles/mainResult.dir/DependInfo.cmake"
   "src/tests/CMakeFiles/cylinderTest.dir/DependInfo.cmake"
   "src/tests/CMakeFiles/sphereTest.dir/DependInfo.cmake"
   "src/tests/CMakeFiles/smoothDiffTest.dir/DependInfo.cmake"
+  "src/tests/CMakeFiles/rotationsMultiTest.dir/DependInfo.cmake"
   "src/tests/CMakeFiles/toreTest.dir/DependInfo.cmake"
   "src/tests/CMakeFiles/translationTest.dir/DependInfo.cmake"
   "src/tests/CMakeFiles/differenceTest.dir/DependInfo.cmake"

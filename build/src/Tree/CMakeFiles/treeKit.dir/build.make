@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hugo/Desktop/MG
+CMAKE_SOURCE_DIR = /home/hugo/Bureau/M2/MG
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hugo/Desktop/MG/build
+CMAKE_BINARY_DIR = /home/hugo/Bureau/M2/MG/build
 
 # Include any dependencies generated for this target.
 include src/Tree/CMakeFiles/treeKit.dir/depend.make
@@ -78,185 +78,185 @@ include src/Tree/CMakeFiles/treeKit.dir/flags.make
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o: ../src/Tree/Shapes/Shape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/Shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Shapes/Shape.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Shapes/Shape.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Shapes/Shape.cpp > CMakeFiles/treeKit.dir/Shapes/Shape.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Shapes/Shape.cpp > CMakeFiles/treeKit.dir/Shapes/Shape.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Shapes/Shape.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Shapes/Shape.cpp -o CMakeFiles/treeKit.dir/Shapes/Shape.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Shapes/Shape.cpp -o CMakeFiles/treeKit.dir/Shapes/Shape.cpp.s
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o: ../src/Tree/Shapes/sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Shapes/sphere.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Shapes/sphere.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Shapes/sphere.cpp > CMakeFiles/treeKit.dir/Shapes/sphere.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Shapes/sphere.cpp > CMakeFiles/treeKit.dir/Shapes/sphere.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Shapes/sphere.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Shapes/sphere.cpp -o CMakeFiles/treeKit.dir/Shapes/sphere.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Shapes/sphere.cpp -o CMakeFiles/treeKit.dir/Shapes/sphere.cpp.s
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o: ../src/Tree/Shapes/cylinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/cylinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Shapes/cylinder.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Shapes/cylinder.cpp > CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Shapes/cylinder.cpp > CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Shapes/cylinder.cpp -o CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Shapes/cylinder.cpp -o CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.s
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o: ../src/Tree/Shapes/tore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Shapes/tore.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/tore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Shapes/tore.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Shapes/tore.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Shapes/tore.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Shapes/tore.cpp > CMakeFiles/treeKit.dir/Shapes/tore.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Shapes/tore.cpp > CMakeFiles/treeKit.dir/Shapes/tore.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Shapes/tore.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Shapes/tore.cpp -o CMakeFiles/treeKit.dir/Shapes/tore.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Shapes/tore.cpp -o CMakeFiles/treeKit.dir/Shapes/tore.cpp.s
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o: ../src/Tree/Shapes/brick.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Shapes/brick.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Shapes/brick.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Shapes/brick.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Shapes/brick.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Shapes/brick.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Shapes/brick.cpp > CMakeFiles/treeKit.dir/Shapes/brick.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Shapes/brick.cpp > CMakeFiles/treeKit.dir/Shapes/brick.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Shapes/brick.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Shapes/brick.cpp -o CMakeFiles/treeKit.dir/Shapes/brick.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Shapes/brick.cpp -o CMakeFiles/treeKit.dir/Shapes/brick.cpp.s
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o: ../src/Tree/Operations/UnOp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/UnOp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Operations/UnOp.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Operations/UnOp.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Operations/UnOp.cpp > CMakeFiles/treeKit.dir/Operations/UnOp.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Operations/UnOp.cpp > CMakeFiles/treeKit.dir/Operations/UnOp.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Operations/UnOp.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Operations/UnOp.cpp -o CMakeFiles/treeKit.dir/Operations/UnOp.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Operations/UnOp.cpp -o CMakeFiles/treeKit.dir/Operations/UnOp.cpp.s
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o: ../src/Tree/Operations/translation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/translation.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/translation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/translation.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Operations/translation.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Operations/translation.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Operations/translation.cpp > CMakeFiles/treeKit.dir/Operations/translation.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Operations/translation.cpp > CMakeFiles/treeKit.dir/Operations/translation.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Operations/translation.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Operations/translation.cpp -o CMakeFiles/treeKit.dir/Operations/translation.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Operations/translation.cpp -o CMakeFiles/treeKit.dir/Operations/translation.cpp.s
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o: ../src/Tree/Operations/union.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/union.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/union.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/union.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Operations/union.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Operations/union.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Operations/union.cpp > CMakeFiles/treeKit.dir/Operations/union.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Operations/union.cpp > CMakeFiles/treeKit.dir/Operations/union.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Operations/union.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Operations/union.cpp -o CMakeFiles/treeKit.dir/Operations/union.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Operations/union.cpp -o CMakeFiles/treeKit.dir/Operations/union.cpp.s
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o: ../src/Tree/Operations/rotations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/rotations.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/rotations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/rotations.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Operations/rotations.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Operations/rotations.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Operations/rotations.cpp > CMakeFiles/treeKit.dir/Operations/rotations.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Operations/rotations.cpp > CMakeFiles/treeKit.dir/Operations/rotations.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Operations/rotations.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Operations/rotations.cpp -o CMakeFiles/treeKit.dir/Operations/rotations.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Operations/rotations.cpp -o CMakeFiles/treeKit.dir/Operations/rotations.cpp.s
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o: ../src/Tree/Operations/smoothUnion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/smoothUnion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Operations/smoothUnion.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Operations/smoothUnion.cpp > CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Operations/smoothUnion.cpp > CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Operations/smoothUnion.cpp -o CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Operations/smoothUnion.cpp -o CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.s
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o: ../src/Tree/Operations/difference.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/difference.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/difference.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/difference.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Operations/difference.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Operations/difference.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Operations/difference.cpp > CMakeFiles/treeKit.dir/Operations/difference.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Operations/difference.cpp > CMakeFiles/treeKit.dir/Operations/difference.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Operations/difference.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Operations/difference.cpp -o CMakeFiles/treeKit.dir/Operations/difference.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Operations/difference.cpp -o CMakeFiles/treeKit.dir/Operations/difference.cpp.s
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o: ../src/Tree/Operations/smoothDiff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/smoothDiff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Operations/smoothDiff.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Operations/smoothDiff.cpp > CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Operations/smoothDiff.cpp > CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Operations/smoothDiff.cpp -o CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Operations/smoothDiff.cpp -o CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.s
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o: ../src/Tree/Operations/intersection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/intersection.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/intersection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/intersection.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Operations/intersection.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Operations/intersection.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Operations/intersection.cpp > CMakeFiles/treeKit.dir/Operations/intersection.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Operations/intersection.cpp > CMakeFiles/treeKit.dir/Operations/intersection.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Operations/intersection.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Operations/intersection.cpp -o CMakeFiles/treeKit.dir/Operations/intersection.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Operations/intersection.cpp -o CMakeFiles/treeKit.dir/Operations/intersection.cpp.s
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o: src/Tree/CMakeFiles/treeKit.dir/flags.make
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o: ../src/Tree/Operations/smoothInter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o -c /home/hugo/Desktop/MG/src/Tree/Operations/smoothInter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o -c /home/hugo/Bureau/M2/MG/src/Tree/Operations/smoothInter.cpp
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/Tree/Operations/smoothInter.cpp > CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/Tree/Operations/smoothInter.cpp > CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.i
 
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/Tree/Operations/smoothInter.cpp -o CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/Tree/Operations/smoothInter.cpp -o CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.s
 
 treeKit: src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o
 treeKit: src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o
@@ -282,10 +282,10 @@ src/Tree/CMakeFiles/treeKit.dir/build: treeKit
 .PHONY : src/Tree/CMakeFiles/treeKit.dir/build
 
 src/Tree/CMakeFiles/treeKit.dir/clean:
-	cd /home/hugo/Desktop/MG/build/src/Tree && $(CMAKE_COMMAND) -P CMakeFiles/treeKit.dir/cmake_clean.cmake
+	cd /home/hugo/Bureau/M2/MG/build/src/Tree && $(CMAKE_COMMAND) -P CMakeFiles/treeKit.dir/cmake_clean.cmake
 .PHONY : src/Tree/CMakeFiles/treeKit.dir/clean
 
 src/Tree/CMakeFiles/treeKit.dir/depend:
-	cd /home/hugo/Desktop/MG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hugo/Desktop/MG /home/hugo/Desktop/MG/src/Tree /home/hugo/Desktop/MG/build /home/hugo/Desktop/MG/build/src/Tree /home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hugo/Bureau/M2/MG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hugo/Bureau/M2/MG /home/hugo/Bureau/M2/MG/src/Tree /home/hugo/Bureau/M2/MG/build /home/hugo/Bureau/M2/MG/build/src/Tree /home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/Tree/CMakeFiles/treeKit.dir/depend
 

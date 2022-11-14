@@ -10,7 +10,7 @@ src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o
  ../src/Tree/Node.hpp
  ../src/Tree/Operations/Operation.hpp
  ../src/Tree/Operations/UnOp.hpp
- /home/hugo/Desktop/MG/src/Tree/Operations/UnOp.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Operations/UnOp.cpp
 src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o
  ../src/GalinStuff/box.h
  ../src/GalinStuff/implicits.h
@@ -21,7 +21,7 @@ src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o
  ../src/Tree/Operations/BinOp.hpp
  ../src/Tree/Operations/Operation.hpp
  ../src/Tree/Operations/difference.hpp
- /home/hugo/Desktop/MG/src/Tree/Operations/difference.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Operations/difference.cpp
 src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o
  ../src/GalinStuff/box.h
  ../src/GalinStuff/implicits.h
@@ -32,7 +32,7 @@ src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o
  ../src/Tree/Operations/NOp.hpp
  ../src/Tree/Operations/Operation.hpp
  ../src/Tree/Operations/intersection.hpp
- /home/hugo/Desktop/MG/src/Tree/Operations/intersection.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Operations/intersection.cpp
 src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o
  ../src/GalinStuff/box.h
  ../src/GalinStuff/implicits.h
@@ -43,7 +43,7 @@ src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o
  ../src/Tree/Operations/Operation.hpp
  ../src/Tree/Operations/UnOp.hpp
  ../src/Tree/Operations/rotations.hpp
- /home/hugo/Desktop/MG/src/Tree/Operations/rotations.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Operations/rotations.cpp
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o
  ../src/GalinStuff/box.h
  ../src/GalinStuff/implicits.h
@@ -54,7 +54,7 @@ src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o
  ../src/Tree/Operations/BinOp.hpp
  ../src/Tree/Operations/Operation.hpp
  ../src/Tree/Operations/smoothDiff.hpp
- /home/hugo/Desktop/MG/src/Tree/Operations/smoothDiff.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Operations/smoothDiff.cpp
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o
  ../src/GalinStuff/box.h
  ../src/GalinStuff/implicits.h
@@ -65,7 +65,7 @@ src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o
  ../src/Tree/Operations/BinOp.hpp
  ../src/Tree/Operations/Operation.hpp
  ../src/Tree/Operations/smoothInter.hpp
- /home/hugo/Desktop/MG/src/Tree/Operations/smoothInter.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Operations/smoothInter.cpp
 src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o
  ../src/GalinStuff/box.h
  ../src/GalinStuff/implicits.h
@@ -76,7 +76,7 @@ src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o
  ../src/Tree/Operations/BinOp.hpp
  ../src/Tree/Operations/Operation.hpp
  ../src/Tree/Operations/smoothUnion.hpp
- /home/hugo/Desktop/MG/src/Tree/Operations/smoothUnion.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Operations/smoothUnion.cpp
 src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o
  ../src/GalinStuff/box.h
  ../src/GalinStuff/implicits.h
@@ -87,7 +87,7 @@ src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o
  ../src/Tree/Operations/Operation.hpp
  ../src/Tree/Operations/UnOp.hpp
  ../src/Tree/Operations/translation.hpp
- /home/hugo/Desktop/MG/src/Tree/Operations/translation.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Operations/translation.cpp
 src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o
  ../src/GalinStuff/box.h
  ../src/GalinStuff/implicits.h
@@ -98,7 +98,7 @@ src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o
  ../src/Tree/Operations/NOp.hpp
  ../src/Tree/Operations/Operation.hpp
  ../src/Tree/Operations/union.hpp
- /home/hugo/Desktop/MG/src/Tree/Operations/union.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Operations/union.cpp
 src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o
  ../src/GalinStuff/box.h
  ../src/GalinStuff/implicits.h
@@ -107,7 +107,7 @@ src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o
  ../src/GalinStuff/ray.h
  ../src/Tree/Node.hpp
  ../src/Tree/Shapes/Shape.hpp
- /home/hugo/Desktop/MG/src/Tree/Shapes/Shape.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Shapes/Shape.cpp
 src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o
  ../src/GalinStuff/box.h
  ../src/GalinStuff/implicits.h
@@ -117,7 +117,7 @@ src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o
  ../src/Tree/Node.hpp
  ../src/Tree/Shapes/Shape.hpp
  ../src/Tree/Shapes/brick.hpp
- /home/hugo/Desktop/MG/src/Tree/Shapes/brick.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Shapes/brick.cpp
 src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o
  ../src/GalinStuff/box.h
  ../src/GalinStuff/implicits.h
@@ -127,7 +127,7 @@ src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o
  ../src/Tree/Node.hpp
  ../src/Tree/Shapes/Shape.hpp
  ../src/Tree/Shapes/cylinder.hpp
- /home/hugo/Desktop/MG/src/Tree/Shapes/cylinder.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Shapes/cylinder.cpp
 src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o
  ../src/GalinStuff/box.h
  ../src/GalinStuff/implicits.h
@@ -137,7 +137,7 @@ src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o
  ../src/Tree/Node.hpp
  ../src/Tree/Shapes/Shape.hpp
  ../src/Tree/Shapes/sphere.hpp
- /home/hugo/Desktop/MG/src/Tree/Shapes/sphere.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Shapes/sphere.cpp
 src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o
  ../src/GalinStuff/box.h
  ../src/GalinStuff/implicits.h
@@ -147,4 +147,4 @@ src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o
  ../src/Tree/Node.hpp
  ../src/Tree/Shapes/Shape.hpp
  ../src/Tree/Shapes/tore.hpp
- /home/hugo/Desktop/MG/src/Tree/Shapes/tore.cpp
+ /home/hugo/Bureau/M2/MG/src/Tree/Shapes/tore.cpp

@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hugo/Desktop/MG
+CMAKE_SOURCE_DIR = /home/hugo/Bureau/M2/MG
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hugo/Desktop/MG/build
+CMAKE_BINARY_DIR = /home/hugo/Bureau/M2/MG/build
 
 # Include any dependencies generated for this target.
 include src/tests/CMakeFiles/unionTest.dir/depend.make
@@ -78,16 +78,16 @@ include src/tests/CMakeFiles/unionTest.dir/flags.make
 
 src/tests/CMakeFiles/unionTest.dir/unionTest.cpp.o: src/tests/CMakeFiles/unionTest.dir/flags.make
 src/tests/CMakeFiles/unionTest.dir/unionTest.cpp.o: ../src/tests/unionTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tests/CMakeFiles/unionTest.dir/unionTest.cpp.o"
-	cd /home/hugo/Desktop/MG/build/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unionTest.dir/unionTest.cpp.o -c /home/hugo/Desktop/MG/src/tests/unionTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tests/CMakeFiles/unionTest.dir/unionTest.cpp.o"
+	cd /home/hugo/Bureau/M2/MG/build/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unionTest.dir/unionTest.cpp.o -c /home/hugo/Bureau/M2/MG/src/tests/unionTest.cpp
 
 src/tests/CMakeFiles/unionTest.dir/unionTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unionTest.dir/unionTest.cpp.i"
-	cd /home/hugo/Desktop/MG/build/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/tests/unionTest.cpp > CMakeFiles/unionTest.dir/unionTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/tests/unionTest.cpp > CMakeFiles/unionTest.dir/unionTest.cpp.i
 
 src/tests/CMakeFiles/unionTest.dir/unionTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unionTest.dir/unionTest.cpp.s"
-	cd /home/hugo/Desktop/MG/build/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/tests/unionTest.cpp -o CMakeFiles/unionTest.dir/unionTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/tests/unionTest.cpp -o CMakeFiles/unionTest.dir/unionTest.cpp.s
 
 # Object files for target unionTest
 unionTest_OBJECTS = \
@@ -95,28 +95,28 @@ unionTest_OBJECTS = \
 
 # External object files for target unionTest
 unionTest_EXTERNAL_OBJECTS = \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o" \
-"/home/hugo/Desktop/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o" \
-"/home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o"
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/sphere.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/cylinder.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/tore.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Shapes/brick.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/UnOp.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/translation.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/union.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/rotations.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothUnion.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/difference.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothDiff.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/intersection.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/src/Tree/CMakeFiles/treeKit.dir/Operations/smoothInter.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o" \
+"/home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o"
 
 ../bin/unionTest: src/tests/CMakeFiles/unionTest.dir/unionTest.cpp.o
 ../bin/unionTest: src/Tree/CMakeFiles/treeKit.dir/Shapes/Shape.cpp.o
@@ -143,8 +143,8 @@ unionTest_EXTERNAL_OBJECTS = \
 ../bin/unionTest: CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o
 ../bin/unionTest: src/tests/CMakeFiles/unionTest.dir/build.make
 ../bin/unionTest: src/tests/CMakeFiles/unionTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../bin/unionTest"
-	cd /home/hugo/Desktop/MG/build/src/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unionTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../bin/unionTest"
+	cd /home/hugo/Bureau/M2/MG/build/src/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unionTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/tests/CMakeFiles/unionTest.dir/build: ../bin/unionTest
@@ -152,10 +152,10 @@ src/tests/CMakeFiles/unionTest.dir/build: ../bin/unionTest
 .PHONY : src/tests/CMakeFiles/unionTest.dir/build
 
 src/tests/CMakeFiles/unionTest.dir/clean:
-	cd /home/hugo/Desktop/MG/build/src/tests && $(CMAKE_COMMAND) -P CMakeFiles/unionTest.dir/cmake_clean.cmake
+	cd /home/hugo/Bureau/M2/MG/build/src/tests && $(CMAKE_COMMAND) -P CMakeFiles/unionTest.dir/cmake_clean.cmake
 .PHONY : src/tests/CMakeFiles/unionTest.dir/clean
 
 src/tests/CMakeFiles/unionTest.dir/depend:
-	cd /home/hugo/Desktop/MG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hugo/Desktop/MG /home/hugo/Desktop/MG/src/tests /home/hugo/Desktop/MG/build /home/hugo/Desktop/MG/build/src/tests /home/hugo/Desktop/MG/build/src/tests/CMakeFiles/unionTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hugo/Bureau/M2/MG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hugo/Bureau/M2/MG /home/hugo/Bureau/M2/MG/src/tests /home/hugo/Bureau/M2/MG/build /home/hugo/Bureau/M2/MG/build/src/tests /home/hugo/Bureau/M2/MG/build/src/tests/CMakeFiles/unionTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/tests/CMakeFiles/unionTest.dir/depend
 

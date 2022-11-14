@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hugo/Desktop/MG
+CMAKE_SOURCE_DIR = /home/hugo/Bureau/M2/MG
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hugo/Desktop/MG/build
+CMAKE_BINARY_DIR = /home/hugo/Bureau/M2/MG/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/galinKit.dir/depend.make
@@ -78,107 +78,107 @@ include CMakeFiles/galinKit.dir/flags.make
 
 CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o: CMakeFiles/galinKit.dir/flags.make
 CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o: ../src/GalinStuff/box.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/box.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o -c /home/hugo/Bureau/M2/MG/src/GalinStuff/box.cpp
 
 CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/GalinStuff/box.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/GalinStuff/box.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.i
 
 CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/GalinStuff/box.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/GalinStuff/box.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.s
 
 CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o: CMakeFiles/galinKit.dir/flags.make
 CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o: ../src/GalinStuff/camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o -c /home/hugo/Bureau/M2/MG/src/GalinStuff/camera.cpp
 
 CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/GalinStuff/camera.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/GalinStuff/camera.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.i
 
 CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/GalinStuff/camera.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/GalinStuff/camera.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.s
 
 CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o: CMakeFiles/galinKit.dir/flags.make
 CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o: ../src/GalinStuff/evector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/evector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.o -c /home/hugo/Bureau/M2/MG/src/GalinStuff/evector.cpp
 
 CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/GalinStuff/evector.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/GalinStuff/evector.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.i
 
 CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/GalinStuff/evector.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/GalinStuff/evector.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/evector.cpp.s
 
 CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o: CMakeFiles/galinKit.dir/flags.make
 CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o: ../src/GalinStuff/implicits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/implicits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.o -c /home/hugo/Bureau/M2/MG/src/GalinStuff/implicits.cpp
 
 CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/GalinStuff/implicits.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/GalinStuff/implicits.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.i
 
 CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/GalinStuff/implicits.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/GalinStuff/implicits.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/implicits.cpp.s
 
 CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o: CMakeFiles/galinKit.dir/flags.make
 CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o: ../src/GalinStuff/mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.o -c /home/hugo/Bureau/M2/MG/src/GalinStuff/mesh.cpp
 
 CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/GalinStuff/mesh.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/GalinStuff/mesh.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.i
 
 CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/GalinStuff/mesh.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/GalinStuff/mesh.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/mesh.cpp.s
 
 CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o: CMakeFiles/galinKit.dir/flags.make
 CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o: ../src/GalinStuff/meshcolor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/meshcolor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.o -c /home/hugo/Bureau/M2/MG/src/GalinStuff/meshcolor.cpp
 
 CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/GalinStuff/meshcolor.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/GalinStuff/meshcolor.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.i
 
 CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/GalinStuff/meshcolor.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/GalinStuff/meshcolor.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/meshcolor.cpp.s
 
 CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o: CMakeFiles/galinKit.dir/flags.make
 CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o: ../src/GalinStuff/ray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/ray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.o -c /home/hugo/Bureau/M2/MG/src/GalinStuff/ray.cpp
 
 CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/GalinStuff/ray.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/GalinStuff/ray.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.i
 
 CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/GalinStuff/ray.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/GalinStuff/ray.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/ray.cpp.s
 
 CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o: CMakeFiles/galinKit.dir/flags.make
 CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o: ../src/GalinStuff/triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o -c /home/hugo/Desktop/MG/src/GalinStuff/triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.o -c /home/hugo/Bureau/M2/MG/src/GalinStuff/triangle.cpp
 
 CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Desktop/MG/src/GalinStuff/triangle.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Bureau/M2/MG/src/GalinStuff/triangle.cpp > CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.i
 
 CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Desktop/MG/src/GalinStuff/triangle.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Bureau/M2/MG/src/GalinStuff/triangle.cpp -o CMakeFiles/galinKit.dir/src/GalinStuff/triangle.cpp.s
 
 galinKit: CMakeFiles/galinKit.dir/src/GalinStuff/box.cpp.o
 galinKit: CMakeFiles/galinKit.dir/src/GalinStuff/camera.cpp.o
@@ -202,6 +202,6 @@ CMakeFiles/galinKit.dir/clean:
 .PHONY : CMakeFiles/galinKit.dir/clean
 
 CMakeFiles/galinKit.dir/depend:
-	cd /home/hugo/Desktop/MG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hugo/Desktop/MG /home/hugo/Desktop/MG /home/hugo/Desktop/MG/build /home/hugo/Desktop/MG/build /home/hugo/Desktop/MG/build/CMakeFiles/galinKit.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hugo/Bureau/M2/MG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hugo/Bureau/M2/MG /home/hugo/Bureau/M2/MG /home/hugo/Bureau/M2/MG/build /home/hugo/Bureau/M2/MG/build /home/hugo/Bureau/M2/MG/build/CMakeFiles/galinKit.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/galinKit.dir/depend
 

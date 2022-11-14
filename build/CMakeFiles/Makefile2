@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hugo/Desktop/MG
+CMAKE_SOURCE_DIR = /home/hugo/Bureau/M2/MG
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hugo/Desktop/MG/build
+CMAKE_BINARY_DIR = /home/hugo/Bureau/M2/MG/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -113,9 +113,11 @@ src/Tree/clean: src/Tree/CMakeFiles/treeKit.dir/clean
 # Directory level rules for directory src/tests
 
 # Recursive "all" directory target.
+src/tests/all: src/tests/CMakeFiles/mainResult.dir/all
 src/tests/all: src/tests/CMakeFiles/cylinderTest.dir/all
 src/tests/all: src/tests/CMakeFiles/sphereTest.dir/all
 src/tests/all: src/tests/CMakeFiles/smoothDiffTest.dir/all
+src/tests/all: src/tests/CMakeFiles/rotationsMultiTest.dir/all
 src/tests/all: src/tests/CMakeFiles/toreTest.dir/all
 src/tests/all: src/tests/CMakeFiles/translationTest.dir/all
 src/tests/all: src/tests/CMakeFiles/differenceTest.dir/all
@@ -134,9 +136,11 @@ src/tests/preinstall:
 .PHONY : src/tests/preinstall
 
 # Recursive "clean" directory target.
+src/tests/clean: src/tests/CMakeFiles/mainResult.dir/clean
 src/tests/clean: src/tests/CMakeFiles/cylinderTest.dir/clean
 src/tests/clean: src/tests/CMakeFiles/sphereTest.dir/clean
 src/tests/clean: src/tests/CMakeFiles/smoothDiffTest.dir/clean
+src/tests/clean: src/tests/CMakeFiles/rotationsMultiTest.dir/clean
 src/tests/clean: src/tests/CMakeFiles/toreTest.dir/clean
 src/tests/clean: src/tests/CMakeFiles/translationTest.dir/clean
 src/tests/clean: src/tests/CMakeFiles/differenceTest.dir/clean
@@ -156,14 +160,14 @@ src/tests/clean: src/tests/CMakeFiles/rotationOnlyTest.dir/clean
 CMakeFiles/galinKit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/galinKit.dir/build.make CMakeFiles/galinKit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14 "Built target galinKit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14 "Built target galinKit"
 .PHONY : CMakeFiles/galinKit.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/galinKit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/galinKit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : CMakeFiles/galinKit.dir/rule
 
 # Convenience name for target.
@@ -183,14 +187,14 @@ CMakeFiles/galinKit.dir/clean:
 src/Tree/CMakeFiles/treeKit.dir/all: CMakeFiles/galinKit.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Tree/CMakeFiles/treeKit.dir/build.make src/Tree/CMakeFiles/treeKit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40,41,42,43,44 "Built target treeKit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45,46,47,48 "Built target treeKit"
 .PHONY : src/Tree/CMakeFiles/treeKit.dir/all
 
 # Build rule for subdir invocation for target.
 src/Tree/CMakeFiles/treeKit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Tree/CMakeFiles/treeKit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : src/Tree/CMakeFiles/treeKit.dir/rule
 
 # Convenience name for target.
@@ -204,6 +208,34 @@ src/Tree/CMakeFiles/treeKit.dir/clean:
 .PHONY : src/Tree/CMakeFiles/treeKit.dir/clean
 
 #=============================================================================
+# Target rules for target src/tests/CMakeFiles/mainResult.dir
+
+# All Build rule for target.
+src/tests/CMakeFiles/mainResult.dir/all: CMakeFiles/galinKit.dir/all
+src/tests/CMakeFiles/mainResult.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/mainResult.dir/build.make src/tests/CMakeFiles/mainResult.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/mainResult.dir/build.make src/tests/CMakeFiles/mainResult.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=17,18 "Built target mainResult"
+.PHONY : src/tests/CMakeFiles/mainResult.dir/all
+
+# Build rule for subdir invocation for target.
+src/tests/CMakeFiles/mainResult.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/mainResult.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
+.PHONY : src/tests/CMakeFiles/mainResult.dir/rule
+
+# Convenience name for target.
+mainResult: src/tests/CMakeFiles/mainResult.dir/rule
+
+.PHONY : mainResult
+
+# clean rule for target.
+src/tests/CMakeFiles/mainResult.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/mainResult.dir/build.make src/tests/CMakeFiles/mainResult.dir/clean
+.PHONY : src/tests/CMakeFiles/mainResult.dir/clean
+
+#=============================================================================
 # Target rules for target src/tests/CMakeFiles/cylinderTest.dir
 
 # All Build rule for target.
@@ -211,14 +243,14 @@ src/tests/CMakeFiles/cylinderTest.dir/all: CMakeFiles/galinKit.dir/all
 src/tests/CMakeFiles/cylinderTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=3,4 "Built target cylinderTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=3,4 "Built target cylinderTest"
 .PHONY : src/tests/CMakeFiles/cylinderTest.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/cylinderTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/cylinderTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/cylinderTest.dir/rule
 
 # Convenience name for target.
@@ -239,14 +271,14 @@ src/tests/CMakeFiles/sphereTest.dir/all: CMakeFiles/galinKit.dir/all
 src/tests/CMakeFiles/sphereTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=25,26 "Built target sphereTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=29,30 "Built target sphereTest"
 .PHONY : src/tests/CMakeFiles/sphereTest.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/sphereTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/sphereTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/sphereTest.dir/rule
 
 # Convenience name for target.
@@ -267,14 +299,14 @@ src/tests/CMakeFiles/smoothDiffTest.dir/all: CMakeFiles/galinKit.dir/all
 src/tests/CMakeFiles/smoothDiffTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=19,20 "Built target smoothDiffTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=23,24 "Built target smoothDiffTest"
 .PHONY : src/tests/CMakeFiles/smoothDiffTest.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/smoothDiffTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/smoothDiffTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/smoothDiffTest.dir/rule
 
 # Convenience name for target.
@@ -288,6 +320,34 @@ src/tests/CMakeFiles/smoothDiffTest.dir/clean:
 .PHONY : src/tests/CMakeFiles/smoothDiffTest.dir/clean
 
 #=============================================================================
+# Target rules for target src/tests/CMakeFiles/rotationsMultiTest.dir
+
+# All Build rule for target.
+src/tests/CMakeFiles/rotationsMultiTest.dir/all: CMakeFiles/galinKit.dir/all
+src/tests/CMakeFiles/rotationsMultiTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationsMultiTest.dir/build.make src/tests/CMakeFiles/rotationsMultiTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationsMultiTest.dir/build.make src/tests/CMakeFiles/rotationsMultiTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=21,22 "Built target rotationsMultiTest"
+.PHONY : src/tests/CMakeFiles/rotationsMultiTest.dir/all
+
+# Build rule for subdir invocation for target.
+src/tests/CMakeFiles/rotationsMultiTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/rotationsMultiTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
+.PHONY : src/tests/CMakeFiles/rotationsMultiTest.dir/rule
+
+# Convenience name for target.
+rotationsMultiTest: src/tests/CMakeFiles/rotationsMultiTest.dir/rule
+
+.PHONY : rotationsMultiTest
+
+# clean rule for target.
+src/tests/CMakeFiles/rotationsMultiTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationsMultiTest.dir/build.make src/tests/CMakeFiles/rotationsMultiTest.dir/clean
+.PHONY : src/tests/CMakeFiles/rotationsMultiTest.dir/clean
+
+#=============================================================================
 # Target rules for target src/tests/CMakeFiles/toreTest.dir
 
 # All Build rule for target.
@@ -295,14 +355,14 @@ src/tests/CMakeFiles/toreTest.dir/all: CMakeFiles/galinKit.dir/all
 src/tests/CMakeFiles/toreTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=27,28 "Built target toreTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=31,32 "Built target toreTest"
 .PHONY : src/tests/CMakeFiles/toreTest.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/toreTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/toreTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/toreTest.dir/rule
 
 # Convenience name for target.
@@ -323,14 +383,14 @@ src/tests/CMakeFiles/translationTest.dir/all: CMakeFiles/galinKit.dir/all
 src/tests/CMakeFiles/translationTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/translationTest.dir/build.make src/tests/CMakeFiles/translationTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/translationTest.dir/build.make src/tests/CMakeFiles/translationTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=29,30 "Built target translationTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=33,34 "Built target translationTest"
 .PHONY : src/tests/CMakeFiles/translationTest.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/translationTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/translationTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/translationTest.dir/rule
 
 # Convenience name for target.
@@ -351,14 +411,14 @@ src/tests/CMakeFiles/differenceTest.dir/all: CMakeFiles/galinKit.dir/all
 src/tests/CMakeFiles/differenceTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/differenceTest.dir/build.make src/tests/CMakeFiles/differenceTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/differenceTest.dir/build.make src/tests/CMakeFiles/differenceTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=5,6 "Built target differenceTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=5,6 "Built target differenceTest"
 .PHONY : src/tests/CMakeFiles/differenceTest.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/differenceTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/differenceTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/differenceTest.dir/rule
 
 # Convenience name for target.
@@ -379,14 +439,14 @@ src/tests/CMakeFiles/unionTest.dir/all: CMakeFiles/galinKit.dir/all
 src/tests/CMakeFiles/unionTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/unionTest.dir/build.make src/tests/CMakeFiles/unionTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/unionTest.dir/build.make src/tests/CMakeFiles/unionTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=45,46 "Built target unionTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=49,50 "Built target unionTest"
 .PHONY : src/tests/CMakeFiles/unionTest.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/unionTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/unionTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/unionTest.dir/rule
 
 # Convenience name for target.
@@ -407,14 +467,14 @@ src/tests/CMakeFiles/smoothUnionTest.dir/all: CMakeFiles/galinKit.dir/all
 src/tests/CMakeFiles/smoothUnionTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothUnionTest.dir/build.make src/tests/CMakeFiles/smoothUnionTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothUnionTest.dir/build.make src/tests/CMakeFiles/smoothUnionTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=21,22 "Built target smoothUnionTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=25,26 "Built target smoothUnionTest"
 .PHONY : src/tests/CMakeFiles/smoothUnionTest.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/smoothUnionTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/smoothUnionTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/smoothUnionTest.dir/rule
 
 # Convenience name for target.
@@ -435,14 +495,14 @@ src/tests/CMakeFiles/intersectionTest.dir/all: CMakeFiles/galinKit.dir/all
 src/tests/CMakeFiles/intersectionTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/intersectionTest.dir/build.make src/tests/CMakeFiles/intersectionTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/intersectionTest.dir/build.make src/tests/CMakeFiles/intersectionTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=15,16 "Built target intersectionTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=15,16 "Built target intersectionTest"
 .PHONY : src/tests/CMakeFiles/intersectionTest.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/intersectionTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/intersectionTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/intersectionTest.dir/rule
 
 # Convenience name for target.
@@ -463,14 +523,14 @@ src/tests/CMakeFiles/smoothinterTest.dir/all: CMakeFiles/galinKit.dir/all
 src/tests/CMakeFiles/smoothinterTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothinterTest.dir/build.make src/tests/CMakeFiles/smoothinterTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothinterTest.dir/build.make src/tests/CMakeFiles/smoothinterTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=23,24 "Built target smoothinterTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=27,28 "Built target smoothinterTest"
 .PHONY : src/tests/CMakeFiles/smoothinterTest.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/smoothinterTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/smoothinterTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/smoothinterTest.dir/rule
 
 # Convenience name for target.
@@ -491,14 +551,14 @@ src/tests/CMakeFiles/brickTest.dir/all: CMakeFiles/galinKit.dir/all
 src/tests/CMakeFiles/brickTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/brickTest.dir/build.make src/tests/CMakeFiles/brickTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/brickTest.dir/build.make src/tests/CMakeFiles/brickTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=1,2 "Built target brickTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=1,2 "Built target brickTest"
 .PHONY : src/tests/CMakeFiles/brickTest.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/brickTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/brickTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/brickTest.dir/rule
 
 # Convenience name for target.
@@ -519,14 +579,14 @@ src/tests/CMakeFiles/rotationOnlyTest.dir/all: CMakeFiles/galinKit.dir/all
 src/tests/CMakeFiles/rotationOnlyTest.dir/all: src/Tree/CMakeFiles/treeKit.dir/all
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationOnlyTest.dir/build.make src/tests/CMakeFiles/rotationOnlyTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationOnlyTest.dir/build.make src/tests/CMakeFiles/rotationOnlyTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Desktop/MG/build/CMakeFiles --progress-num=17,18 "Built target rotationOnlyTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hugo/Bureau/M2/MG/build/CMakeFiles --progress-num=19,20 "Built target rotationOnlyTest"
 .PHONY : src/tests/CMakeFiles/rotationOnlyTest.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/rotationOnlyTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/rotationOnlyTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/rotationOnlyTest.dir/rule
 
 # Convenience name for target.

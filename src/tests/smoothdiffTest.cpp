@@ -9,7 +9,7 @@ int main(void){
     Node* C = new Cylinder(Vector(0.), Vector(4.), 1.);
     Node* S = new Sphere(3.);
 
-    Node* SD = new SmoothDiff(-0.75, S, C);
+    Node* SD = new SmoothDiff(0.75, S, C, true);
     SD->Polygonize(50, diffMesh, SD->autoBox());
     diffMesh.SaveObj("./smoothDiff.obj", "");
 }

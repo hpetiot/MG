@@ -15,7 +15,7 @@ public:
         }
     }
 
-    SmoothInter(double smoothSize, Node* left, Node* right, double resversed = false):smoothSize(smoothSize), BinOp{S_INTER}{
+    SmoothInter(double smoothSize, Node* left, Node* right, bool resversed = false):smoothSize(smoothSize), BinOp{S_INTER}{
         if(resversed){
             reverse = -1;
         }

@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hugo/Desktop/MG
+CMAKE_SOURCE_DIR = /home/hugo/Bureau/M2/MG
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hugo/Desktop/MG/build
+CMAKE_BINARY_DIR = /home/hugo/Bureau/M2/MG/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hugo/Desktop/MG/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles /home/hugo/Desktop/MG/build/src/tests//CMakeFiles/progress.marks
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	cd /home/hugo/Bureau/M2/MG/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles /home/hugo/Bureau/M2/MG/build/src/tests//CMakeFiles/progress.marks
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/clean
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,37 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/preinstall
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/preinstall
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hugo/Desktop/MG/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hugo/Bureau/M2/MG/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
+src/tests/CMakeFiles/mainResult.dir/rule:
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/mainResult.dir/rule
+.PHONY : src/tests/CMakeFiles/mainResult.dir/rule
+
+# Convenience name for target.
+mainResult: src/tests/CMakeFiles/mainResult.dir/rule
+
+.PHONY : mainResult
+
+# fast build rule for target.
+mainResult/fast:
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/mainResult.dir/build.make src/tests/CMakeFiles/mainResult.dir/build
+.PHONY : mainResult/fast
+
+# Convenience name for target.
 src/tests/CMakeFiles/cylinderTest.dir/rule:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/cylinderTest.dir/rule
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/cylinderTest.dir/rule
 .PHONY : src/tests/CMakeFiles/cylinderTest.dir/rule
 
 # Convenience name for target.
@@ -141,12 +156,12 @@ cylinderTest: src/tests/CMakeFiles/cylinderTest.dir/rule
 
 # fast build rule for target.
 cylinderTest/fast:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/build
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/build
 .PHONY : cylinderTest/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/sphereTest.dir/rule:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/sphereTest.dir/rule
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/sphereTest.dir/rule
 .PHONY : src/tests/CMakeFiles/sphereTest.dir/rule
 
 # Convenience name for target.
@@ -156,12 +171,12 @@ sphereTest: src/tests/CMakeFiles/sphereTest.dir/rule
 
 # fast build rule for target.
 sphereTest/fast:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/build
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/build
 .PHONY : sphereTest/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/smoothDiffTest.dir/rule:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/smoothDiffTest.dir/rule
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/smoothDiffTest.dir/rule
 .PHONY : src/tests/CMakeFiles/smoothDiffTest.dir/rule
 
 # Convenience name for target.
@@ -171,12 +186,27 @@ smoothDiffTest: src/tests/CMakeFiles/smoothDiffTest.dir/rule
 
 # fast build rule for target.
 smoothDiffTest/fast:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/build
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/build
 .PHONY : smoothDiffTest/fast
 
 # Convenience name for target.
+src/tests/CMakeFiles/rotationsMultiTest.dir/rule:
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/rotationsMultiTest.dir/rule
+.PHONY : src/tests/CMakeFiles/rotationsMultiTest.dir/rule
+
+# Convenience name for target.
+rotationsMultiTest: src/tests/CMakeFiles/rotationsMultiTest.dir/rule
+
+.PHONY : rotationsMultiTest
+
+# fast build rule for target.
+rotationsMultiTest/fast:
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationsMultiTest.dir/build.make src/tests/CMakeFiles/rotationsMultiTest.dir/build
+.PHONY : rotationsMultiTest/fast
+
+# Convenience name for target.
 src/tests/CMakeFiles/toreTest.dir/rule:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/toreTest.dir/rule
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/toreTest.dir/rule
 .PHONY : src/tests/CMakeFiles/toreTest.dir/rule
 
 # Convenience name for target.
@@ -186,12 +216,12 @@ toreTest: src/tests/CMakeFiles/toreTest.dir/rule
 
 # fast build rule for target.
 toreTest/fast:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/build
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/build
 .PHONY : toreTest/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/translationTest.dir/rule:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/translationTest.dir/rule
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/translationTest.dir/rule
 .PHONY : src/tests/CMakeFiles/translationTest.dir/rule
 
 # Convenience name for target.
@@ -201,12 +231,12 @@ translationTest: src/tests/CMakeFiles/translationTest.dir/rule
 
 # fast build rule for target.
 translationTest/fast:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/translationTest.dir/build.make src/tests/CMakeFiles/translationTest.dir/build
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/translationTest.dir/build.make src/tests/CMakeFiles/translationTest.dir/build
 .PHONY : translationTest/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/differenceTest.dir/rule:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/differenceTest.dir/rule
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/differenceTest.dir/rule
 .PHONY : src/tests/CMakeFiles/differenceTest.dir/rule
 
 # Convenience name for target.
@@ -216,12 +246,12 @@ differenceTest: src/tests/CMakeFiles/differenceTest.dir/rule
 
 # fast build rule for target.
 differenceTest/fast:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/differenceTest.dir/build.make src/tests/CMakeFiles/differenceTest.dir/build
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/differenceTest.dir/build.make src/tests/CMakeFiles/differenceTest.dir/build
 .PHONY : differenceTest/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/unionTest.dir/rule:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/unionTest.dir/rule
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/unionTest.dir/rule
 .PHONY : src/tests/CMakeFiles/unionTest.dir/rule
 
 # Convenience name for target.
@@ -231,12 +261,12 @@ unionTest: src/tests/CMakeFiles/unionTest.dir/rule
 
 # fast build rule for target.
 unionTest/fast:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/unionTest.dir/build.make src/tests/CMakeFiles/unionTest.dir/build
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/unionTest.dir/build.make src/tests/CMakeFiles/unionTest.dir/build
 .PHONY : unionTest/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/smoothUnionTest.dir/rule:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/smoothUnionTest.dir/rule
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/smoothUnionTest.dir/rule
 .PHONY : src/tests/CMakeFiles/smoothUnionTest.dir/rule
 
 # Convenience name for target.
@@ -246,12 +276,12 @@ smoothUnionTest: src/tests/CMakeFiles/smoothUnionTest.dir/rule
 
 # fast build rule for target.
 smoothUnionTest/fast:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothUnionTest.dir/build.make src/tests/CMakeFiles/smoothUnionTest.dir/build
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothUnionTest.dir/build.make src/tests/CMakeFiles/smoothUnionTest.dir/build
 .PHONY : smoothUnionTest/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/intersectionTest.dir/rule:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/intersectionTest.dir/rule
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/intersectionTest.dir/rule
 .PHONY : src/tests/CMakeFiles/intersectionTest.dir/rule
 
 # Convenience name for target.
@@ -261,12 +291,12 @@ intersectionTest: src/tests/CMakeFiles/intersectionTest.dir/rule
 
 # fast build rule for target.
 intersectionTest/fast:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/intersectionTest.dir/build.make src/tests/CMakeFiles/intersectionTest.dir/build
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/intersectionTest.dir/build.make src/tests/CMakeFiles/intersectionTest.dir/build
 .PHONY : intersectionTest/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/smoothinterTest.dir/rule:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/smoothinterTest.dir/rule
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/smoothinterTest.dir/rule
 .PHONY : src/tests/CMakeFiles/smoothinterTest.dir/rule
 
 # Convenience name for target.
@@ -276,12 +306,12 @@ smoothinterTest: src/tests/CMakeFiles/smoothinterTest.dir/rule
 
 # fast build rule for target.
 smoothinterTest/fast:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothinterTest.dir/build.make src/tests/CMakeFiles/smoothinterTest.dir/build
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothinterTest.dir/build.make src/tests/CMakeFiles/smoothinterTest.dir/build
 .PHONY : smoothinterTest/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/brickTest.dir/rule:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/brickTest.dir/rule
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/brickTest.dir/rule
 .PHONY : src/tests/CMakeFiles/brickTest.dir/rule
 
 # Convenience name for target.
@@ -291,12 +321,12 @@ brickTest: src/tests/CMakeFiles/brickTest.dir/rule
 
 # fast build rule for target.
 brickTest/fast:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/brickTest.dir/build.make src/tests/CMakeFiles/brickTest.dir/build
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/brickTest.dir/build.make src/tests/CMakeFiles/brickTest.dir/build
 .PHONY : brickTest/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/rotationOnlyTest.dir/rule:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/rotationOnlyTest.dir/rule
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/rotationOnlyTest.dir/rule
 .PHONY : src/tests/CMakeFiles/rotationOnlyTest.dir/rule
 
 # Convenience name for target.
@@ -306,7 +336,7 @@ rotationOnlyTest: src/tests/CMakeFiles/rotationOnlyTest.dir/rule
 
 # fast build rule for target.
 rotationOnlyTest/fast:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationOnlyTest.dir/build.make src/tests/CMakeFiles/rotationOnlyTest.dir/build
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationOnlyTest.dir/build.make src/tests/CMakeFiles/rotationOnlyTest.dir/build
 .PHONY : rotationOnlyTest/fast
 
 brickTest.o: brickTest.cpp.o
@@ -315,7 +345,7 @@ brickTest.o: brickTest.cpp.o
 
 # target to build an object file
 brickTest.cpp.o:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/brickTest.dir/build.make src/tests/CMakeFiles/brickTest.dir/brickTest.cpp.o
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/brickTest.dir/build.make src/tests/CMakeFiles/brickTest.dir/brickTest.cpp.o
 .PHONY : brickTest.cpp.o
 
 brickTest.i: brickTest.cpp.i
@@ -324,7 +354,7 @@ brickTest.i: brickTest.cpp.i
 
 # target to preprocess a source file
 brickTest.cpp.i:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/brickTest.dir/build.make src/tests/CMakeFiles/brickTest.dir/brickTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/brickTest.dir/build.make src/tests/CMakeFiles/brickTest.dir/brickTest.cpp.i
 .PHONY : brickTest.cpp.i
 
 brickTest.s: brickTest.cpp.s
@@ -333,7 +363,7 @@ brickTest.s: brickTest.cpp.s
 
 # target to generate assembly for a file
 brickTest.cpp.s:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/brickTest.dir/build.make src/tests/CMakeFiles/brickTest.dir/brickTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/brickTest.dir/build.make src/tests/CMakeFiles/brickTest.dir/brickTest.cpp.s
 .PHONY : brickTest.cpp.s
 
 cylinderTest.o: cylinderTest.cpp.o
@@ -342,7 +372,7 @@ cylinderTest.o: cylinderTest.cpp.o
 
 # target to build an object file
 cylinderTest.cpp.o:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.o
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.o
 .PHONY : cylinderTest.cpp.o
 
 cylinderTest.i: cylinderTest.cpp.i
@@ -351,7 +381,7 @@ cylinderTest.i: cylinderTest.cpp.i
 
 # target to preprocess a source file
 cylinderTest.cpp.i:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.i
 .PHONY : cylinderTest.cpp.i
 
 cylinderTest.s: cylinderTest.cpp.s
@@ -360,7 +390,7 @@ cylinderTest.s: cylinderTest.cpp.s
 
 # target to generate assembly for a file
 cylinderTest.cpp.s:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/cylinderTest.dir/build.make src/tests/CMakeFiles/cylinderTest.dir/cylinderTest.cpp.s
 .PHONY : cylinderTest.cpp.s
 
 differenceTest.o: differenceTest.cpp.o
@@ -369,7 +399,7 @@ differenceTest.o: differenceTest.cpp.o
 
 # target to build an object file
 differenceTest.cpp.o:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/differenceTest.dir/build.make src/tests/CMakeFiles/differenceTest.dir/differenceTest.cpp.o
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/differenceTest.dir/build.make src/tests/CMakeFiles/differenceTest.dir/differenceTest.cpp.o
 .PHONY : differenceTest.cpp.o
 
 differenceTest.i: differenceTest.cpp.i
@@ -378,7 +408,7 @@ differenceTest.i: differenceTest.cpp.i
 
 # target to preprocess a source file
 differenceTest.cpp.i:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/differenceTest.dir/build.make src/tests/CMakeFiles/differenceTest.dir/differenceTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/differenceTest.dir/build.make src/tests/CMakeFiles/differenceTest.dir/differenceTest.cpp.i
 .PHONY : differenceTest.cpp.i
 
 differenceTest.s: differenceTest.cpp.s
@@ -387,7 +417,7 @@ differenceTest.s: differenceTest.cpp.s
 
 # target to generate assembly for a file
 differenceTest.cpp.s:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/differenceTest.dir/build.make src/tests/CMakeFiles/differenceTest.dir/differenceTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/differenceTest.dir/build.make src/tests/CMakeFiles/differenceTest.dir/differenceTest.cpp.s
 .PHONY : differenceTest.cpp.s
 
 intersectionTest.o: intersectionTest.cpp.o
@@ -396,7 +426,7 @@ intersectionTest.o: intersectionTest.cpp.o
 
 # target to build an object file
 intersectionTest.cpp.o:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/intersectionTest.dir/build.make src/tests/CMakeFiles/intersectionTest.dir/intersectionTest.cpp.o
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/intersectionTest.dir/build.make src/tests/CMakeFiles/intersectionTest.dir/intersectionTest.cpp.o
 .PHONY : intersectionTest.cpp.o
 
 intersectionTest.i: intersectionTest.cpp.i
@@ -405,7 +435,7 @@ intersectionTest.i: intersectionTest.cpp.i
 
 # target to preprocess a source file
 intersectionTest.cpp.i:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/intersectionTest.dir/build.make src/tests/CMakeFiles/intersectionTest.dir/intersectionTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/intersectionTest.dir/build.make src/tests/CMakeFiles/intersectionTest.dir/intersectionTest.cpp.i
 .PHONY : intersectionTest.cpp.i
 
 intersectionTest.s: intersectionTest.cpp.s
@@ -414,8 +444,35 @@ intersectionTest.s: intersectionTest.cpp.s
 
 # target to generate assembly for a file
 intersectionTest.cpp.s:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/intersectionTest.dir/build.make src/tests/CMakeFiles/intersectionTest.dir/intersectionTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/intersectionTest.dir/build.make src/tests/CMakeFiles/intersectionTest.dir/intersectionTest.cpp.s
 .PHONY : intersectionTest.cpp.s
+
+mainResult.o: mainResult.cpp.o
+
+.PHONY : mainResult.o
+
+# target to build an object file
+mainResult.cpp.o:
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/mainResult.dir/build.make src/tests/CMakeFiles/mainResult.dir/mainResult.cpp.o
+.PHONY : mainResult.cpp.o
+
+mainResult.i: mainResult.cpp.i
+
+.PHONY : mainResult.i
+
+# target to preprocess a source file
+mainResult.cpp.i:
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/mainResult.dir/build.make src/tests/CMakeFiles/mainResult.dir/mainResult.cpp.i
+.PHONY : mainResult.cpp.i
+
+mainResult.s: mainResult.cpp.s
+
+.PHONY : mainResult.s
+
+# target to generate assembly for a file
+mainResult.cpp.s:
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/mainResult.dir/build.make src/tests/CMakeFiles/mainResult.dir/mainResult.cpp.s
+.PHONY : mainResult.cpp.s
 
 rotationOnlyTest.o: rotationOnlyTest.cpp.o
 
@@ -423,7 +480,7 @@ rotationOnlyTest.o: rotationOnlyTest.cpp.o
 
 # target to build an object file
 rotationOnlyTest.cpp.o:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationOnlyTest.dir/build.make src/tests/CMakeFiles/rotationOnlyTest.dir/rotationOnlyTest.cpp.o
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationOnlyTest.dir/build.make src/tests/CMakeFiles/rotationOnlyTest.dir/rotationOnlyTest.cpp.o
 .PHONY : rotationOnlyTest.cpp.o
 
 rotationOnlyTest.i: rotationOnlyTest.cpp.i
@@ -432,7 +489,7 @@ rotationOnlyTest.i: rotationOnlyTest.cpp.i
 
 # target to preprocess a source file
 rotationOnlyTest.cpp.i:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationOnlyTest.dir/build.make src/tests/CMakeFiles/rotationOnlyTest.dir/rotationOnlyTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationOnlyTest.dir/build.make src/tests/CMakeFiles/rotationOnlyTest.dir/rotationOnlyTest.cpp.i
 .PHONY : rotationOnlyTest.cpp.i
 
 rotationOnlyTest.s: rotationOnlyTest.cpp.s
@@ -441,8 +498,35 @@ rotationOnlyTest.s: rotationOnlyTest.cpp.s
 
 # target to generate assembly for a file
 rotationOnlyTest.cpp.s:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationOnlyTest.dir/build.make src/tests/CMakeFiles/rotationOnlyTest.dir/rotationOnlyTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationOnlyTest.dir/build.make src/tests/CMakeFiles/rotationOnlyTest.dir/rotationOnlyTest.cpp.s
 .PHONY : rotationOnlyTest.cpp.s
+
+rotationsMultiTest.o: rotationsMultiTest.cpp.o
+
+.PHONY : rotationsMultiTest.o
+
+# target to build an object file
+rotationsMultiTest.cpp.o:
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationsMultiTest.dir/build.make src/tests/CMakeFiles/rotationsMultiTest.dir/rotationsMultiTest.cpp.o
+.PHONY : rotationsMultiTest.cpp.o
+
+rotationsMultiTest.i: rotationsMultiTest.cpp.i
+
+.PHONY : rotationsMultiTest.i
+
+# target to preprocess a source file
+rotationsMultiTest.cpp.i:
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationsMultiTest.dir/build.make src/tests/CMakeFiles/rotationsMultiTest.dir/rotationsMultiTest.cpp.i
+.PHONY : rotationsMultiTest.cpp.i
+
+rotationsMultiTest.s: rotationsMultiTest.cpp.s
+
+.PHONY : rotationsMultiTest.s
+
+# target to generate assembly for a file
+rotationsMultiTest.cpp.s:
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationsMultiTest.dir/build.make src/tests/CMakeFiles/rotationsMultiTest.dir/rotationsMultiTest.cpp.s
+.PHONY : rotationsMultiTest.cpp.s
 
 smoothdiffTest.o: smoothdiffTest.cpp.o
 
@@ -450,7 +534,7 @@ smoothdiffTest.o: smoothdiffTest.cpp.o
 
 # target to build an object file
 smoothdiffTest.cpp.o:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/smoothdiffTest.cpp.o
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/smoothdiffTest.cpp.o
 .PHONY : smoothdiffTest.cpp.o
 
 smoothdiffTest.i: smoothdiffTest.cpp.i
@@ -459,7 +543,7 @@ smoothdiffTest.i: smoothdiffTest.cpp.i
 
 # target to preprocess a source file
 smoothdiffTest.cpp.i:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/smoothdiffTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/smoothdiffTest.cpp.i
 .PHONY : smoothdiffTest.cpp.i
 
 smoothdiffTest.s: smoothdiffTest.cpp.s
@@ -468,7 +552,7 @@ smoothdiffTest.s: smoothdiffTest.cpp.s
 
 # target to generate assembly for a file
 smoothdiffTest.cpp.s:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/smoothdiffTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/smoothdiffTest.cpp.s
 .PHONY : smoothdiffTest.cpp.s
 
 smoothinterTest.o: smoothinterTest.cpp.o
@@ -477,7 +561,7 @@ smoothinterTest.o: smoothinterTest.cpp.o
 
 # target to build an object file
 smoothinterTest.cpp.o:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothinterTest.dir/build.make src/tests/CMakeFiles/smoothinterTest.dir/smoothinterTest.cpp.o
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothinterTest.dir/build.make src/tests/CMakeFiles/smoothinterTest.dir/smoothinterTest.cpp.o
 .PHONY : smoothinterTest.cpp.o
 
 smoothinterTest.i: smoothinterTest.cpp.i
@@ -486,7 +570,7 @@ smoothinterTest.i: smoothinterTest.cpp.i
 
 # target to preprocess a source file
 smoothinterTest.cpp.i:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothinterTest.dir/build.make src/tests/CMakeFiles/smoothinterTest.dir/smoothinterTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothinterTest.dir/build.make src/tests/CMakeFiles/smoothinterTest.dir/smoothinterTest.cpp.i
 .PHONY : smoothinterTest.cpp.i
 
 smoothinterTest.s: smoothinterTest.cpp.s
@@ -495,7 +579,7 @@ smoothinterTest.s: smoothinterTest.cpp.s
 
 # target to generate assembly for a file
 smoothinterTest.cpp.s:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothinterTest.dir/build.make src/tests/CMakeFiles/smoothinterTest.dir/smoothinterTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothinterTest.dir/build.make src/tests/CMakeFiles/smoothinterTest.dir/smoothinterTest.cpp.s
 .PHONY : smoothinterTest.cpp.s
 
 smoothunionTest.o: smoothunionTest.cpp.o
@@ -504,7 +588,7 @@ smoothunionTest.o: smoothunionTest.cpp.o
 
 # target to build an object file
 smoothunionTest.cpp.o:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothUnionTest.dir/build.make src/tests/CMakeFiles/smoothUnionTest.dir/smoothunionTest.cpp.o
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothUnionTest.dir/build.make src/tests/CMakeFiles/smoothUnionTest.dir/smoothunionTest.cpp.o
 .PHONY : smoothunionTest.cpp.o
 
 smoothunionTest.i: smoothunionTest.cpp.i
@@ -513,7 +597,7 @@ smoothunionTest.i: smoothunionTest.cpp.i
 
 # target to preprocess a source file
 smoothunionTest.cpp.i:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothUnionTest.dir/build.make src/tests/CMakeFiles/smoothUnionTest.dir/smoothunionTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothUnionTest.dir/build.make src/tests/CMakeFiles/smoothUnionTest.dir/smoothunionTest.cpp.i
 .PHONY : smoothunionTest.cpp.i
 
 smoothunionTest.s: smoothunionTest.cpp.s
@@ -522,7 +606,7 @@ smoothunionTest.s: smoothunionTest.cpp.s
 
 # target to generate assembly for a file
 smoothunionTest.cpp.s:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothUnionTest.dir/build.make src/tests/CMakeFiles/smoothUnionTest.dir/smoothunionTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothUnionTest.dir/build.make src/tests/CMakeFiles/smoothUnionTest.dir/smoothunionTest.cpp.s
 .PHONY : smoothunionTest.cpp.s
 
 sphereTest.o: sphereTest.cpp.o
@@ -531,7 +615,7 @@ sphereTest.o: sphereTest.cpp.o
 
 # target to build an object file
 sphereTest.cpp.o:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.o
 .PHONY : sphereTest.cpp.o
 
 sphereTest.i: sphereTest.cpp.i
@@ -540,7 +624,7 @@ sphereTest.i: sphereTest.cpp.i
 
 # target to preprocess a source file
 sphereTest.cpp.i:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.i
 .PHONY : sphereTest.cpp.i
 
 sphereTest.s: sphereTest.cpp.s
@@ -549,7 +633,7 @@ sphereTest.s: sphereTest.cpp.s
 
 # target to generate assembly for a file
 sphereTest.cpp.s:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/sphereTest.dir/build.make src/tests/CMakeFiles/sphereTest.dir/sphereTest.cpp.s
 .PHONY : sphereTest.cpp.s
 
 toreTest.o: toreTest.cpp.o
@@ -558,7 +642,7 @@ toreTest.o: toreTest.cpp.o
 
 # target to build an object file
 toreTest.cpp.o:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.o
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.o
 .PHONY : toreTest.cpp.o
 
 toreTest.i: toreTest.cpp.i
@@ -567,7 +651,7 @@ toreTest.i: toreTest.cpp.i
 
 # target to preprocess a source file
 toreTest.cpp.i:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.i
 .PHONY : toreTest.cpp.i
 
 toreTest.s: toreTest.cpp.s
@@ -576,7 +660,7 @@ toreTest.s: toreTest.cpp.s
 
 # target to generate assembly for a file
 toreTest.cpp.s:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/toreTest.dir/build.make src/tests/CMakeFiles/toreTest.dir/toreTest.cpp.s
 .PHONY : toreTest.cpp.s
 
 translationTest.o: translationTest.cpp.o
@@ -585,7 +669,7 @@ translationTest.o: translationTest.cpp.o
 
 # target to build an object file
 translationTest.cpp.o:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/translationTest.dir/build.make src/tests/CMakeFiles/translationTest.dir/translationTest.cpp.o
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/translationTest.dir/build.make src/tests/CMakeFiles/translationTest.dir/translationTest.cpp.o
 .PHONY : translationTest.cpp.o
 
 translationTest.i: translationTest.cpp.i
@@ -594,7 +678,7 @@ translationTest.i: translationTest.cpp.i
 
 # target to preprocess a source file
 translationTest.cpp.i:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/translationTest.dir/build.make src/tests/CMakeFiles/translationTest.dir/translationTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/translationTest.dir/build.make src/tests/CMakeFiles/translationTest.dir/translationTest.cpp.i
 .PHONY : translationTest.cpp.i
 
 translationTest.s: translationTest.cpp.s
@@ -603,7 +687,7 @@ translationTest.s: translationTest.cpp.s
 
 # target to generate assembly for a file
 translationTest.cpp.s:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/translationTest.dir/build.make src/tests/CMakeFiles/translationTest.dir/translationTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/translationTest.dir/build.make src/tests/CMakeFiles/translationTest.dir/translationTest.cpp.s
 .PHONY : translationTest.cpp.s
 
 unionTest.o: unionTest.cpp.o
@@ -612,7 +696,7 @@ unionTest.o: unionTest.cpp.o
 
 # target to build an object file
 unionTest.cpp.o:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/unionTest.dir/build.make src/tests/CMakeFiles/unionTest.dir/unionTest.cpp.o
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/unionTest.dir/build.make src/tests/CMakeFiles/unionTest.dir/unionTest.cpp.o
 .PHONY : unionTest.cpp.o
 
 unionTest.i: unionTest.cpp.i
@@ -621,7 +705,7 @@ unionTest.i: unionTest.cpp.i
 
 # target to preprocess a source file
 unionTest.cpp.i:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/unionTest.dir/build.make src/tests/CMakeFiles/unionTest.dir/unionTest.cpp.i
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/unionTest.dir/build.make src/tests/CMakeFiles/unionTest.dir/unionTest.cpp.i
 .PHONY : unionTest.cpp.i
 
 unionTest.s: unionTest.cpp.s
@@ -630,7 +714,7 @@ unionTest.s: unionTest.cpp.s
 
 # target to generate assembly for a file
 unionTest.cpp.s:
-	cd /home/hugo/Desktop/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/unionTest.dir/build.make src/tests/CMakeFiles/unionTest.dir/unionTest.cpp.s
+	cd /home/hugo/Bureau/M2/MG/build && $(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/unionTest.dir/build.make src/tests/CMakeFiles/unionTest.dir/unionTest.cpp.s
 .PHONY : unionTest.cpp.s
 
 # Help Target
@@ -645,7 +729,9 @@ help:
 	@echo "... cylinderTest"
 	@echo "... differenceTest"
 	@echo "... intersectionTest"
+	@echo "... mainResult"
 	@echo "... rotationOnlyTest"
+	@echo "... rotationsMultiTest"
 	@echo "... smoothDiffTest"
 	@echo "... smoothUnionTest"
 	@echo "... smoothinterTest"
@@ -665,9 +751,15 @@ help:
 	@echo "... intersectionTest.o"
 	@echo "... intersectionTest.i"
 	@echo "... intersectionTest.s"
+	@echo "... mainResult.o"
+	@echo "... mainResult.i"
+	@echo "... mainResult.s"
 	@echo "... rotationOnlyTest.o"
 	@echo "... rotationOnlyTest.i"
 	@echo "... rotationOnlyTest.s"
+	@echo "... rotationsMultiTest.o"
+	@echo "... rotationsMultiTest.i"
+	@echo "... rotationsMultiTest.s"
 	@echo "... smoothdiffTest.o"
 	@echo "... smoothdiffTest.i"
 	@echo "... smoothdiffTest.s"
@@ -700,6 +792,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hugo/Desktop/MG/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hugo/Bureau/M2/MG/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

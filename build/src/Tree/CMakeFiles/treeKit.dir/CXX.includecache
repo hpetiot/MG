@@ -48,21 +48,21 @@ vector
 implicits.h
 -
 
+../src/Tree/Operations/BinOp.hpp
+Operation.hpp
+-
+
 ../src/Tree/Operations/Operation.hpp
 ../Node.hpp
 -
 vector
 -
 
-../src/Tree/Operations/UnOp.hpp
-Operation.hpp
+../src/Tree/Operations/smoothInter.hpp
+BinOp.hpp
 -
 
-../src/Tree/Operations/rotations.hpp
-UnOp.hpp
--
-
-/home/hugo/Desktop/MG/src/Tree/Operations/rotations.cpp
-rotations.hpp
+/home/hugo/Bureau/M2/MG/src/Tree/Operations/smoothInter.cpp
+smoothInter.hpp
 -
 

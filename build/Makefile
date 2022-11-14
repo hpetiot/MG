@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hugo/Desktop/MG
+CMAKE_SOURCE_DIR = /home/hugo/Bureau/M2/MG
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hugo/Desktop/MG/build
+CMAKE_BINARY_DIR = /home/hugo/Bureau/M2/MG/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles /home/hugo/Desktop/MG/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles /home/hugo/Bureau/M2/MG/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Desktop/MG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hugo/Bureau/M2/MG/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -156,6 +156,19 @@ treeKit/fast:
 .PHONY : treeKit/fast
 
 #=============================================================================
+# Target rules for targets named mainResult
+
+# Build rule for target.
+mainResult: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mainResult
+.PHONY : mainResult
+
+# fast build rule for target.
+mainResult/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/mainResult.dir/build.make src/tests/CMakeFiles/mainResult.dir/build
+.PHONY : mainResult/fast
+
+#=============================================================================
 # Target rules for targets named cylinderTest
 
 # Build rule for target.
@@ -193,6 +206,19 @@ smoothDiffTest: cmake_check_build_system
 smoothDiffTest/fast:
 	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/smoothDiffTest.dir/build.make src/tests/CMakeFiles/smoothDiffTest.dir/build
 .PHONY : smoothDiffTest/fast
+
+#=============================================================================
+# Target rules for targets named rotationsMultiTest
+
+# Build rule for target.
+rotationsMultiTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rotationsMultiTest
+.PHONY : rotationsMultiTest
+
+# fast build rule for target.
+rotationsMultiTest/fast:
+	$(MAKE) $(MAKESILENT) -f src/tests/CMakeFiles/rotationsMultiTest.dir/build.make src/tests/CMakeFiles/rotationsMultiTest.dir/build
+.PHONY : rotationsMultiTest/fast
 
 #=============================================================================
 # Target rules for targets named toreTest
@@ -540,7 +566,9 @@ help:
 	@echo "... differenceTest"
 	@echo "... galinKit"
 	@echo "... intersectionTest"
+	@echo "... mainResult"
 	@echo "... rotationOnlyTest"
+	@echo "... rotationsMultiTest"
 	@echo "... smoothDiffTest"
 	@echo "... smoothUnionTest"
 	@echo "... smoothinterTest"
